@@ -60,7 +60,7 @@ Hindi and Hinglish questions are run three times: searching English articles, Hi
 
 ## Data source and how the help content was used
 
-The only source is the public Prime Video Help Center: <https://www.primevideo.com/help>. `data/sources.csv` lists the 35 articles used, with a link to the English and Hindi version of each and the date it was saved (1 October 2026).
+The only source is the public Prime Video Help Center: <https://www.primevideo.com/help>. `data/sources.csv` lists the 35 articles used, with a link to the English and Hindi version of each and the date it was saved (October 01, 2026).
 
 - **Collected by hand.** I opened each page in a browser and saved it myself, 70 pages in all. No crawler, script or other automated tool was used to fetch pages, and the site's `robots.txt` was respected.
 - **Not redistributed.** The article text belongs to Amazon and is not in this repository. The `.gitignore` keeps the saved pages, the extracted text, the search index and the model answers out of version control. The repository links to the articles instead.
