@@ -31,8 +31,6 @@ The test is small (70 questions, 35 articles), so a difference of a few answers 
 ![Correctness by question type](results/charts/1_correctness_by_question_type.png)
 ![Made-up content and wrong language](results/charts/3_made_up_and_wrong_language.png)
 
-## How it works
-
 ## Decisions I made, and why
 
 - **A third of the questions can't be fully answered from the articles.** A support assistant does the most damage when it answers confidently without grounds, so the test includes questions it should decline and questions it can only half answer.
@@ -59,6 +57,8 @@ The numbers describe 70 questions on one help center. The method is what carries
 4. **Give "partly answerable" its own fix and metric.** Every model failed here, and overall accuracy hides it.
 5. **Add raters.** One native speaker scored Hindi. Three raters per language, with their agreement reported, would make the language findings firm, and would show what register customers want: some answers I marked down were correct but too formal for everyday Hindi.
 6. **Extend to more languages and models.** Tamil, Telugu, Bengali and Marathi next, each with native raters, plus the larger models this run could not include.
+
+## How it works
 
 ```mermaid
 flowchart LR
@@ -137,4 +137,4 @@ The full run cost about $0.58, and the whole project about $0.64. Every paid ste
 
 - Claude Sonnet 5.5 was the planned Claude model but was not available on my AWS account, so Claude Haiku 4.5 was run in its place. Sonnet 5.5 is still in `src/config.py` and can be added with `python src/run_eval.py --models sonnet-5.5 --yes`.
 - The system prompt was revised once after a 5-question test (version 2: reply in the question's language, and don't mention "excerpts").
-- Costs use list prices on 1 October 2026 and are estimates.
+- Costs use list prices on October 01, 2026 and are estimates.
