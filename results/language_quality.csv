@@ -1,0 +1,361 @@
+item,model,qid,language,corpus,native_speaker_quality,native_speaker_comment,llm_judge_quality,llm_judge_reason,set
+H001,nova2-lite,HI-A01,hi,en,2,Simple and easy to understand,2,"Simple, clear everyday Hindi; button names kept in English",calibration
+H002,nova2-lite,HI-A01,hi,hi,0,Too complicated Hindi to read for the everyday colloquial speakers,1,"Stiff opener ""आपके प्रश्न के अनुसार"", ""चरणों का पालन"", repeated ""विवरण""; UI labels translated; Latin full stops",calibration
+H003,llama4-maverick,HI-A01,hi,en,1,"Although it does mention the error code, things like “उपरोक्त चरणों” don’t really jive well with me",1,"Bookish ""यदि"", ""उपरोक्त चरणों का पालन"", ""आपके द्वारा दी गई जानकारी""",calibration
+H004,llama4-maverick,HI-A01,hi,both,1,"It’s likely that the English buttons like “Settings”, “Devices”, “Deregister” might stay in English on the UI. We need to make sure they are presented that way in the answers as well. ",1,"Odd ""गड़बड़ी कोड"", formal ""पुनः प्रयास"", ""विवरण""; menu names translated into Hindi",calibration
+H005,nova2-lite,HI-A01,hi,both,2,Pure hindi but a very well structured answer.,1,"Same stiff translated register as H002; ""लॉगिन विवरण"", UI labels in Hindi, Latin full stops",calibration
+H006,haiku-4.5,HI-A01,hi,en,1,"For an interactive support, it is good as it furthers into asking a follow up question to the user",1,"Mostly natural but ""विस्तृत जानकारी"", ""विशिष्ट कोड"" are bookish; ""आपने जो कोड दिखाया है"" is odd",calibration
+H007,llama4-maverick,HI-A01,hi,hi,0,Did not like this answer much,1,"Translated-sounding single block; ""पुन: प्रयास"", ""संपर्क करने पर विचार करें"", clumsy repeated ""इस्तेमाल""",calibration
+H008,haiku-4.5,HI-A01,hi,hi,1,Feels like a complete answer and gave the most distinct and innovative solution. What I am doubtful about though is whether a TV can actually have a VPN/Proxy running on it as the answer suggests.,1,"Largely colloquial, but ""परेशानी का सामना कर रहे हैं"", ""विवरण"" and Hindi-translated button label hold it back",calibration
+H008,haiku-4.5,HI-A01,hi,both,1,Feels like a complete answer and gave the most distinct and innovative solution. What I am doubtful about though is whether a TV can actually have a VPN/Proxy running on it as the answer suggests.,1,"Largely colloquial, but ""परेशानी का सामना कर रहे हैं"", ""विवरण"" and Hindi-translated button label hold it back",calibration
+H009,haiku-4.5,HI-A02,hi,en,2,,2,"Natural code-mixed Hindi as people speak; minor slip ""किसी भी जगह"" gender",calibration
+H010,nova2-lite,HI-A02,hi,hi,1,,1,"Mixes ""शीर्षक"" and ""टाइटल्स""; masculine forms for a female asker; stiff ""नियमों के अनुसार""",calibration
+H011,llama4-maverick,HI-A02,hi,both,1,,1,"""शीर्षक"", ""टाइटल्स का चयन"", ""होम देश"" read as translation",calibration
+H012,llama4-maverick,HI-A02,hi,hi,1,,1,"Translated feel: ""शीर्षक"", ""टाइटल्स का चयन बदल सकता है""; repetitive; masculine forms",calibration
+H013,haiku-4.5,HI-A02,hi,hi,2,,2,"Clear, simple, consistent feminine forms; reads like a real agent",calibration
+H014,nova2-lite,HI-A02,hi,both,1,,1,"English word order (""स्ट्रीम कर सकते हैं जब आप...""), ""टाइटल्स का चयन"", wrong gender",calibration
+H015,nova2-lite,HI-A02,hi,en,0,,1,"Literal ""घर के देश""; final EU paragraph is convoluted translationese and hard to parse",calibration
+H016,llama4-maverick,HI-A02,hi,en,1,,1,"Awkward ""आपके भारत में उपलब्ध कंटेंट"", formal ""उपयोग""; masculine for female asker",calibration
+H017,haiku-4.5,HI-A02,hi,both,,,2,"Natural mixed Hindi, easy to read; slightly clumsy ""वही सभी नहीं मिलेंगे""",
+H018,llama4-maverick,HI-B01,hi,hi,,,1,"Stiff ""गलत शुल्क लिया गया है"", ""मदद प्राप्त कर सकते हैं""; odd closing sentence",
+H019,nova2-lite,HI-B01,hi,both,2,,1,"Bookish ""नवीनीकरण/नवीनीकृत"", ""अज्ञात शुल्क"", ""अतिरिक्त""",test
+H020,llama4-maverick,HI-B01,hi,en,2,,1,"Gender errors (""आपका सदस्यता नवीनीकृत हुआ""), Sanskritised ""नवीनीकृत"", jumbled last sentence",test
+H021,haiku-4.5,HI-B01,hi,both,,,2,Natural support-agent tone with everyday loanwords; minor formal headings,
+H022,nova2-lite,HI-B01,hi,hi,,,1,"Mostly colloquial but faulty constructions (""सब्सक्रिप्शन ... किराए पर लिया"", ""उसे रिफंड के लिए मदद""); UI labels in Hindi",
+H023,nova2-lite,HI-B01,hi,en,,,1,"""नवीनीकृत/नवीनीकरण"" bookish; gender error ""दोनों की मासिक शुल्क ... आ सकते हैं""",
+H024,llama4-maverick,HI-B01,hi,both,,,1,"Fairly plain but ""आपका मेम्बरशिप"", ""संभावित"", ""अधिक जानकारी"", menu name translated",
+H025,haiku-4.5,HI-B01,hi,hi,,,1,"Formal ""दुर्भाग्यवश"", ""विशिष्ट"", ""विस्तृत"", ""यदि आवश्यक हो""; awkward ""यह जल्दी से जल्दी संपर्क करना""",
+H026,haiku-4.5,HI-B01,hi,en,,,2,"Natural everyday code-mixed Hindi, conversational and clear",
+H027,llama4-maverick,HI-B02,hi,en,,,1,"Bookish ""यदि"", ""अद्यतन करें"", ""विवरण""; transliterated ""आईओएस/टीवीओएस""; ""संपर्क करने पर विचार करें""",
+H028,haiku-4.5,HI-B02,hi,hi,1,,1,"""विस्तृत समस्या निवारण"" is officialese; gender error ""आपके विशिष्ट पेमेंट समस्या""",test
+H029,haiku-4.5,HI-B02,hi,both,,,1,"Understandable but stiff ""मुझे खेद है"", ""उपलब्ध जानकारी में नहीं है""; ""आपको ... मदद"" error",
+H030,llama4-maverick,HI-B02,hi,hi,1,,0,"Dense official-translation Hindi (""सत्यापित"", ""सत्यापन की आवश्यकता""); run-on sentences, last line hard to follow",test
+H031,llama4-maverick,HI-B02,hi,both,,,1,"Stiff ""हमें खेद है"", ""यह जानकारी उपलब्ध नहीं है कि...""; formal tone",
+H032,nova2-lite,HI-B02,hi,en,2,,1,"Gender error ""कार्ड की नंबर""; step 2 is grammatically garbled; ""एक्सपायरेशन""",test
+H033,haiku-4.5,HI-B02,hi,en,,,2,Clear colloquial Hindi with normal loanwords; reads naturally,
+H034,nova2-lite,HI-B02,hi,hi,,,1,"Formal ""सत्यापित"", ""अज्ञात लेनदेन"", ""विभिन्न"", ""यदि संभव हो""",
+H035,nova2-lite,HI-B02,hi,both,,,1,"Gender error ""दिए गए जानकारी""; otherwise plain but slightly stiff",
+H036,nova2-lite,HI-B03,hi,both,,,1,"Switches between masculine and feminine forms; awkward ""एक साथ एक डिवाइस पर ही""; UI label translated",
+H037,llama4-maverick,HI-B03,hi,en,,,1,"Gender switches mid-answer; formal ""एकमात्र"", ""के माध्यम से""",
+H038,llama4-maverick,HI-B03,hi,hi,,,1,"Vague translated phrasing (""डिवाइसों पर कॉन्टेंट देख सकते हैं""), ""सीमाएं हो सकती हैं"", ""अपने स्थान से संबंधित""",
+H039,haiku-4.5,HI-B03,hi,both,,,1,"Error ""मुझे ... पर्याप्त जानकारी नहीं है""; bookish ""विशिष्ट"", ""सटीक""",
+H040,haiku-4.5,HI-B03,hi,en,,,2,"Direct, simple, conversational; small gender switch and ""एकमात्र""",
+H041,nova2-lite,HI-B03,hi,hi,,,2,"Clear, consistent feminine forms, everyday wording; minor translated ""हटाएं""",
+H042,haiku-4.5,HI-B03,hi,hi,,,1,"""एक शीर्षक स्ट्रीम"" is translationese; ""अधिक डिवाइसों""; otherwise clear",
+H043,llama4-maverick,HI-B03,hi,both,,,1,One long run-on sentence; vague opening; translated UI label,
+H044,nova2-lite,HI-B03,hi,en,2,,1,"English word order (""पहली डिवाइस जो आप ... देखते हैं"", trailing ""साइन-अप के दौरान""); gender mix; ""यदि""",test
+H045,llama4-maverick,HI-B04,hi,both,,,2,"Short, plain and easy to read",
+H046,nova2-lite,HI-B04,hi,en,1,,1,"Gender error ""दूसरा प्राइम मेंबरशिप""; ""यदि"", ""अधिकतम""; UI labels in Hindi",test
+H047,haiku-4.5,HI-B04,hi,hi,,,2,"Simple natural steps, everyday words",
+H047,haiku-4.5,HI-B04,hi,both,,,2,"Simple natural steps, everyday words",
+H048,nova2-lite,HI-B04,hi,hi,,,2,"Readable, natural step-by-step Hindi with normal loanwords; slight translated touches",
+H049,haiku-4.5,HI-B04,hi,en,,,1,"Bookish ""सटीक अपग्रेड प्रक्रिया"", ""विस्तृत जानकारी"", ""बेहतर सहायता""",
+H050,nova2-lite,HI-B04,hi,both,,,1,"Translated phrasing ""यहाँ बताया गया है कि"", ""प्रक्रिया को पूरा करें"", ""निर्देशों का पालन""",
+H051,llama4-maverick,HI-B04,hi,hi,,,2,Short and plain; easy to read,
+H052,llama4-maverick,HI-B04,hi,en,,,1,"Repetitive ""कर सकते हैं"" chain; ""अपना मेम्बरशिप""; ""निर्देशों का पालन""",
+H053,nova2-lite,HI-B05,hi,both,,,1,"Passive, formal ""इस्तेमाल किया जा सकता है"", ""अन्य""; odd ""पिनलेस डेबिट""",
+H054,haiku-4.5,HI-B05,hi,hi,,,2,"Natural and clear; minor literal ""बेशक""",
+H055,haiku-4.5,HI-B05,hi,en,,,2,Conversational mixed Hindi; slightly English-ordered heading line,
+H056,nova2-lite,HI-B05,hi,hi,,,1,"Clear but ""विकल्पों पर विचार करना होगा"" is stiff; Latin full stops",
+H057,llama4-maverick,HI-B05,hi,en,,,1,"Formal ""उपयोग करके"", ""स्वीकार किए जाते हैं""",
+H058,llama4-maverick,HI-B05,hi,both,2,,1,"Passive formal phrasing ""किया जा सकता है"", ""स्वीकार किए जाते हैं""; Latin full stops",test
+H059,haiku-4.5,HI-B05,hi,both,,,2,"Natural, simple, friendly wording",
+H060,llama4-maverick,HI-B05,hi,hi,,,1,"Passive formal phrasing; ""स्वीकार किए जाते हैं""; Latin full stops",
+H061,nova2-lite,HI-B05,hi,en,1,,1,"Long list sentence, formal ""उपयोग"", transliterated ""ऐड फ़्री""",test
+H062,llama4-maverick,HI-C01,hi,en,,,1,"Heavily bookish: ""निम्नलिखित चरणों का पालन"", ""शीर्ष मेनू"", ""समाप्ति तिथि"", ""अपनी रद्दीकरण"", ""सामग्री तक पहुंच""",
+H063,nova2-lite,HI-C01,hi,hi,,,1,"Readable but translated; ""यदि""; all button names rendered in Hindi; Latin full stops",
+H064,nova2-lite,HI-C01,hi,en,,,1,"Gender errors (""अपनी कैंसलेशन"", ""सब्सक्रिप्शन की रिन्यू होने""); convoluted Apple sentence",
+H065,haiku-4.5,HI-C01,hi,both,,,2,"Clear everyday Hindi, English button names, natural flow",
+H066,llama4-maverick,HI-C01,hi,hi,1,,1,"Plain but translated UI labels (""अनसब्सक्राइब करें चुनें""); Latin full stops",test
+H067,llama4-maverick,HI-C01,hi,both,,,1,"Translated-sounding paragraph; UI names in Devanagari; ""कैंसलेशन को वापस कर सकते हैं"" is awkward",
+H068,haiku-4.5,HI-C01,hi,hi,2,,1,"Simple steps but button names rendered in Devanagari/Hindi (""अनसब्सक्राइब करें"", ""वापस लें""); ""शुल्क"" formal",test
+H069,haiku-4.5,HI-C01,hi,en,,,2,Natural everyday mix with English UI names kept as on screen; easy to read,
+H070,nova2-lite,HI-C01,hi,both,,,1,"UI names in Devanagari; translated feel; ""आप अगले महीने पैसे नहीं काटेंगे"" is wrong verb form",
+H071,llama4-maverick,HI-C02,hi,en,1,,1,"Understandable but stiff (""अधिक जानकारी प्राप्त कर सकते हैं"")",test
+H072,nova2-lite,HI-C02,hi,hi,,,0,"Heavy official-translation Hindi (""प्रश्न के अनुसार"", ""प्रदाताओं"", ""दिए गए जानकारी"" gender error); hard for everyday reader",
+H072,nova2-lite,HI-C02,hi,both,,,0,"Heavy official-translation Hindi (""प्रश्न के अनुसार"", ""प्रदाताओं"", ""दिए गए जानकारी"" gender error); hard for everyday reader",
+H073,haiku-4.5,HI-C02,hi,hi,,,2,"Plain, clear, conversational Hindi with normal loanwords",
+H073,haiku-4.5,HI-C02,hi,both,,,2,"Plain, clear, conversational Hindi with normal loanwords",
+H074,nova2-lite,HI-C02,hi,en,,,1,"Readable but bookish (""प्रत्येक"", ""प्रदान करते हैं"", ""नियमित भुगतान"", ""अवधि और शर्तें"")",
+H075,haiku-4.5,HI-C02,hi,en,2,,2,"Short, plain and natural",test
+H076,llama4-maverick,HI-C02,hi,hi,,,1,"Stiff wording (""सब्सक्रिप्शन प्रदाता""); translated-sounding",
+H076,llama4-maverick,HI-C02,hi,both,,,1,"Stiff wording (""सब्सक्रिप्शन प्रदाता""); translated-sounding",
+H077,nova2-lite,HI-D01,hi,hi,,,1,"""इन चरणों का पालन"" stiff; UI names in Devanagari; awkward ""जिस डिवाइस को..., पर हटाएं चुनें"", ""2 डिवाइस तक""",
+H078,nova2-lite,HI-D01,hi,both,,,1,"Same stiff phrasing and Devanagari UI names; awkward ""डिवाइस तक हटा सकते हैं""",
+H079,llama4-maverick,HI-D01,hi,en,,,1,"Terse; UI names transliterated (""डिवाइसेस"", ""रिमूव""); ""अधिकतम"" formal",
+H080,nova2-lite,HI-D01,hi,en,2,,1,"Stray Korean characters in ""멤्बरशिप""; gender error ""यह आपके पुराने फ़ोन होगा""; Devanagari UI names",test
+H081,haiku-4.5,HI-D01,hi,hi,,,1,"Simple and clear but button/menu names in Hindi (""हटाएं""); odd ""2 डिवाइस तक""",
+H081,haiku-4.5,HI-D01,hi,both,,,1,"Simple and clear but button/menu names in Hindi (""हटाएं""); odd ""2 डिवाइस तक""",
+H082,llama4-maverick,HI-D01,hi,hi,,,1,"Dense translated paragraph; Devanagari UI names; ""सदस्यता""",
+H082,llama4-maverick,HI-D01,hi,both,,,1,"Dense translated paragraph; Devanagari UI names; ""सदस्यता""",
+H083,haiku-4.5,HI-D01,hi,en,2,,2,Natural steps with English UI names; minor agreement slip in first line,test
+H084,nova2-lite,HI-D02,hi,en,,,1,"Step 4 is a clumsy run-on; ""रजिस्टर एक डिवाइस पेज"" is literal translation",
+H085,llama4-maverick,HI-D02,hi,en,2,,2,"Short, clear, everyday wording",test
+H086,llama4-maverick,HI-D02,hi,hi,,,1,"Bookish words ""सुसंगत"", ""समर्थित"", ""खाते"", ""यदि""; translated feel",
+H087,haiku-4.5,HI-D02,hi,hi,,,1,"""सुसंगत"", ""विस्तृत"" bookish; uneven mix",
+H087,haiku-4.5,HI-D02,hi,both,,,1,"""सुसंगत"", ""विस्तृत"" bookish; uneven mix",
+H088,llama4-maverick,HI-D02,hi,both,,,1,"Bookish ""सुसंगत"", ""समर्थित"", ""खाते""; translated feel",
+H089,nova2-lite,HI-D02,hi,both,,,1,"Awkward ""सकते/सकती"" repeated; ""तीन तक वीडियो"" literal; ""खाते""",
+H090,haiku-4.5,HI-D02,hi,en,,,2,"Natural steps, common loanwords, easy to read",
+H091,nova2-lite,HI-D02,hi,hi,,,1,"Awkward ""सकते/सकती"" (then inconsistent); ""तीन तक वीडियो""; ""खाते""",
+H092,haiku-4.5,HI-D03,hi,en,,,2,"Simple, natural; Settings and Force Stop kept in English",
+H093,llama4-maverick,HI-D03,hi,en,,,1,"Clear but abrupt; UI names transliterated (""फोर्स स्टॉप"", ""सेटिंग्स ऐप"")",
+H094,nova2-lite,HI-D03,hi,hi,,,1,"Button name translated (""ज़बरदस्ती बंद करें"") rather than Force Stop; otherwise simple",
+H095,llama4-maverick,HI-D03,hi,hi,,,1,"Translated button label ""ज़बरदस्ती बंद करें""; otherwise plain",
+H096,nova2-lite,HI-D03,hi,both,,,1,Translated button label; otherwise simple,
+H097,llama4-maverick,HI-D03,hi,both,,,1,"Translated button label; ""ज़बरदस्ती बंद करें चुनें"" reads oddly",
+H098,nova2-lite,HI-D03,hi,en,,,2,"Natural; English UI names; ""फ़ोर्स स्टॉप करके"" is how people say it",
+H099,haiku-4.5,HI-D03,hi,hi,,,1,"Simple steps but button label translated (""ज़बरदस्ती बंद करें"")",
+H100,haiku-4.5,HI-D03,hi,both,1,The question was in all Devanagari script but the answer came out with some English words,2,Natural; Force Stop in English with Hindi gloss; easy to read,test
+H101,llama4-maverick,HI-DL01,hi,both,,,1,"Awkward opening sentence; formal ""अधिकतम संख्या"", ""कारकों पर निर्भर""",
+H102,haiku-4.5,HI-DL01,hi,hi,,,1,"""मुझे... पर्याप्त जानकारी नहीं है"" off; ""सुसंगत"" bookish; otherwise clear",
+H103,nova2-lite,HI-DL01,hi,both,,,2,"Plain, conversational; minor slip ""किसी दो डिवाइस""",
+H104,llama4-maverick,HI-DL01,hi,hi,,,1,"""शीर्षक"" for title is bookish; translated-sounding",
+H105,llama4-maverick,HI-DL01,hi,en,,,1,"Dense formal sentence (""निर्धारित"", ""भिन्न"", ""कारकों""); ""डिवाइसेज""; gender slip ""टाइटल्स की... की जा सकने वाली""",
+H106,haiku-4.5,HI-DL01,hi,both,2,,1,"Mostly clear but ""सुसंगत डिवाइस"" bookish; slightly formal",test
+H107,haiku-4.5,HI-DL01,hi,en,,,2,"Clear, simple and well structured",
+H108,nova2-lite,HI-DL01,hi,hi,1,,1,"Gender error ""एक डाउनलोड किया हुआ मूवी""; awkward last sentence",test
+H109,nova2-lite,HI-DL01,hi,en,,,2,"Plain and easy; minor slip ""किसी दो डिवाइस""",
+H110,haiku-4.5,HI-DL02,hi,both,,,2,"Simple, clear, natural",
+H111,llama4-maverick,HI-DL02,hi,en,,,1,"Grammar errors (""देखने शुरू करने होते हैं"", ""किराए पर या खरीदा नहीं है""); formal ""यदि"", ""समाप्त""",
+H112,nova2-lite,HI-DL02,hi,en,,,1,"Broken sentence at start; ""देख नहीं कर सकते"" error; formal register",
+H113,llama4-maverick,HI-DL02,hi,hi,,,1,"One long translated-sounding sentence; clumsy ""देखना पूरा करने के लिए""",
+H113,llama4-maverick,HI-DL02,hi,both,,,1,"One long translated-sounding sentence; clumsy ""देखना पूरा करने के लिए""",
+H114,haiku-4.5,HI-DL02,hi,hi,2,,2,"Simple and clear; slight formality (""विशिष्ट"")",test
+H115,haiku-4.5,HI-DL02,hi,en,,,2,"Conversational, easy to read",
+H116,nova2-lite,HI-DL02,hi,hi,2,,1,"Long and repetitive; ""तृतीय पक्ष"" bookish; formal ""समाप्त"", ""रद्द""",test
+H117,nova2-lite,HI-DL02,hi,both,,,1,"Grammar slip ""एक बार शुरू कर दिए तो""; formal ""यदि"", ""सदस्यता समाप्त""",
+H118,nova2-lite,HI-DL03,hi,both,,,1,"Long, translated; ""संगत"", ""समर्थित"", ""व्यक्तिगत एपिसोड"", ""प्लेबैक नहीं किया जा सकता""; ""टाइटल की डिटेल पेज"" gender error",
+H119,llama4-maverick,HI-DL03,hi,hi,,,1,"""सुसंगत"" repeated; convoluted final sentence; stiff",
+H120,haiku-4.5,HI-DL03,hi,en,,,2,Natural Hindi-English mix as people actually use; clear steps,
+H121,llama4-maverick,HI-DL03,hi,both,,,1,"Understandable but translated-sounding (""बशर्ते"", ""विकल्प""); slightly stiff",
+H122,llama4-maverick,HI-DL03,hi,en,,,1,"Convoluted last sentence; ""विशिष्ट"", ""संगत"", ""अधिकतम""",
+H123,nova2-lite,HI-DL03,hi,en,,,1,"Long, translated (""यहाँ बताया गया है कि""); ""संगत"", ""व्यक्तिगत""; ""पूरी सीज़न""; switches सकती/सकते",
+H124,haiku-4.5,HI-DL03,hi,hi,,,2,"Plain, clear, easy to read",
+H125,haiku-4.5,HI-DL03,hi,both,2,,2,"Natural, simple, well structured",test
+H126,nova2-lite,HI-DL03,hi,hi,2,,1,"""सुसंगत"", ""समर्थित""; confusing self-contradictory sentence; stiff",test
+H127,llama4-maverick,HI-DL04,hi,hi,,,0,"Convoluted literal translation; broken agreement (""कोई किराये पर लिए हुए वीडियो""); ""सुसंगत"" x3; hard to follow",
+H127,llama4-maverick,HI-DL04,hi,both,,,0,"Convoluted literal translation; broken agreement (""कोई किराये पर लिए हुए वीडियो""); ""सुसंगत"" x3; hard to follow",
+H128,llama4-maverick,HI-DL04,hi,en,,,1,"Clear but formal (""यदि"", ""अधिक जानकारी के लिए"", ""डिवाइसेज"", ""केवल"")",
+H129,nova2-lite,HI-DL04,hi,hi,,,0,"Confusing and stiff (""चरणों का पालन"", ""सहायता की आवश्यकता""); step 2 garbled; ""सुसंगत""",
+H130,nova2-lite,HI-DL04,hi,en,2,,2,"Simple, natural steps in everyday wording",test
+H131,nova2-lite,HI-DL04,hi,both,,,1,"Plain words but repetitive, tangled sentences; ""बशर्ते"", ""खाते""",
+H132,haiku-4.5,HI-DL04,hi,hi,,,1,"""यहाँ क्या संभव है"" translated; ""ऐप्लिकेशन का उपयोग"", ""अन्य""; otherwise clear",
+H132,haiku-4.5,HI-DL04,hi,both,,,1,"""यहाँ क्या संभव है"" translated; ""ऐप्लिकेशन का उपयोग"", ""अन्य""; otherwise clear",
+H133,haiku-4.5,HI-DL04,hi,en,2,,2,"Simple, clear everyday Hindi; easy to read",test
+H134,llama4-maverick,HI-P01,hi,both,1,,1,Long sentences; Chrome menu names translated into Hindi rather than left as on screen,test
+H135,haiku-4.5,HI-P01,hi,both,,,1,Natural wording but inconsistent mix of English and translated menu labels,
+H136,nova2-lite,HI-P01,hi,both,,,1,"Translated menu labels, ""चरणों""/""सामग्री"", full stops mixed with danda; a bit stiff",
+H137,llama4-maverick,HI-P01,hi,en,,,1,"""निम्नलिखित कदम उठाएं"", ""सुनिश्चित करें""; stiff, dense paragraph steps",
+H138,nova2-lite,HI-P01,hi,hi,,,1,"Translated menu labels, ""इन चरणों"", mixed punctuation; understandable but stiff",
+H139,haiku-4.5,HI-P01,hi,en,,,2,"Natural everyday Hindi, buttons kept in English, easy to follow",
+H140,haiku-4.5,HI-P01,hi,hi,2,,1,"Mostly natural but awkward half-translated labels (""Content से जुड़ी सेटिंग्स"") and inconsistent mix",test
+H141,llama4-maverick,HI-P01,hi,hi,,,1,"Long run-on sentences, translated menu labels; reads translated",
+H142,nova2-lite,HI-P01,hi,en,2,,2,Natural conversational Hindi with English button names; easy to read,test
+H143,haiku-4.5,HI-P02,hi,en,,,2,Natural code-mixed Hindi as people actually speak; clear,
+H144,llama4-maverick,HI-P02,hi,both,1,,1,"Translated page titles dropped in unquoted (""अपडेट करना पर जाएं"", ""शीर्षक""); awkward",test
+H145,llama4-maverick,HI-P02,hi,hi,,,1,"Translated-sounding (""समय-सीमा खत्म होने की तारीख"", ""वैकल्पिक""); stiff",
+H146,haiku-4.5,HI-P02,hi,both,2,,2,Simple natural Hindi with common loanwords; easy to read,test
+H147,llama4-maverick,HI-P02,hi,en,,,1,"Bookish words (""अद्यतन"", ""समाप्ति तिथि"", ""विवरण"") mixed with loanwords",
+H148,nova2-lite,HI-P02,hi,both,,,1,"Typo ""सीक्रिटी"", gender error ""अपनी ऑर्डर"", awkward translated page titles",
+H149,nova2-lite,HI-P02,hi,en,,,1,"""आपके द्वारा"" passive stiffness, typo ""बतादेंगे"", agreement slip in ""आपके पेमेंट डिटेल्स""",
+H150,nova2-lite,HI-P02,hi,hi,,,1,"Long and stiff (""वैधता"", ""वैकल्पिक""), mixed full stops and danda",
+H151,haiku-4.5,HI-P02,hi,hi,,,1,"Mostly natural but translated phrases (""समय-सीमा खत्म होने की तारीख"", ""वैकल्पिक तरीका"")",
+H152,haiku-4.5,HI-P03,hi,both,2,,1,"Ungrammatical translated sentence about indicator lights (""...को स्थिर होने तक प्रतीक्षा करें"")",test
+H153,llama4-maverick,HI-P03,hi,both,,,1,"""निम्नलिखित"", ""यदि"", awkward indicator-lights sentence; translated feel",
+H154,haiku-4.5,HI-P03,hi,en,,,1,"Clear but formal ""प्रतीक्षा""/""से संबंधित"" and grammar slip ""ये सभी कदम के बाद""",
+H155,nova2-lite,HI-P03,hi,en,2,,1,"Odd phrases (""टेम्पोररी रूप से"", ""अपडेट सुनिश्चित करें"", ""स्वचालित रूप से""), ऐप/एप inconsistent",test
+H156,nova2-lite,HI-P03,hi,both,,,1,"Awkward indicator-lights sentence, gender error ""की गई कॉन्टेंट"", formal long closing",
+H157,llama4-maverick,HI-P03,hi,en,1,,0,"Heavily formal/translated (""पुनः इंस्टॉल"", ""अद्यतित"", ""संगत"", ""एचडीसीपी""); hard for everyday reader",test
+H158,haiku-4.5,HI-P03,hi,hi,,,1,"Understandable but stiff (""खेद है"", ""विशेष सहायता"", ""प्रतीक्षा करें"")",
+H159,llama4-maverick,HI-P03,hi,hi,,,1,"Odd sentence ""आपको यह जानकारी नहीं मिली है"", grammar slip with lights line",
+H160,nova2-lite,HI-P03,hi,hi,,,1,"""उपरोक्त विकल्प"", ""यदि"", ""आवश्यकता""; awkward ""के लिए मदद प्राप्त कर सकते हैं""",
+H161,llama4-maverick,HI-P04,hi,en,,,0,"Garbled mixed-script ""जुडdering"", ""एमबी/एस"", ""समस्या निवारण करने""; very formal and hard to follow",
+H162,haiku-4.5,HI-P04,hi,hi,,,2,"Clear, natural, well structured; setting names in English",
+H163,llama4-maverick,HI-P04,hi,hi,1,,1,"""निम्नलिखित चरणों का पालन"", ""संगत"", ""अत्यधिक""; official-translation tone",test
+H164,nova2-lite,HI-P04,hi,both,,,1,"""समर्थित डिवाइस"", broken sentence about ""अटक-अटककर चलने"", ""रिस्टार्ट"" spelling",
+H165,haiku-4.5,HI-P04,hi,en,,,2,"Simple natural Hindi, easy steps",
+H166,llama4-maverick,HI-P04,hi,both,,,1,"""एमबी/एस"", ""सिफारिश की जाती है"", clumsy ""अटक-अटककर चलने की समस्या का सामना""; translated",
+H167,nova2-lite,HI-P04,hi,en,1,,1,"""समर्थित"", ""सिफारिश की जाती है"", ""निर्माता"", ""जडरिंग""; stiff",test
+H168,nova2-lite,HI-P04,hi,hi,,,1,Mostly clear but TV setting names transliterated to Devanagari; slightly translated tone,
+H169,haiku-4.5,HI-P04,hi,both,2,,2,"Natural, clear, setting names left in English",test
+H170,nova2-lite,HI-PC01,hi,en,,,2,Natural everyday Hindi with English button names; easy to follow,
+H171,llama4-maverick,HI-PC01,hi,hi,1,,1,"""अभिभावकीय नियंत्रण"", ""निम्नलिखित चरणों"", unquoted translated buttons; inconsistent terms",test
+H172,nova2-lite,HI-PC01,hi,both,,,1,"Understandable but translated labels (""प्रवेश प्रतिबंध""), mixed punctuation, long and repetitive",
+H173,llama4-maverick,HI-PC01,hi,both,,,1,"Formal (""आवश्यकता"", ""दर्ज करें"", ""सहेजें"") with English in brackets; translated feel",
+H174,nova2-lite,HI-PC01,hi,hi,,,1,"Gender error ""नई PIN"", translated unquoted button labels; otherwise clear",
+H175,haiku-4.5,HI-PC01,hi,hi,,,1,"Mostly natural but ""सक्रिय करना"", agreement slip ""पाबंदियां...रोकेगी"", translated labels",
+H176,haiku-4.5,HI-PC01,hi,both,2,,2,"Natural conversational Hindi, English buttons, easy to read",test
+H177,haiku-4.5,HI-PC01,hi,en,,,2,"Natural and clear, English buttons kept as on screen",
+H178,llama4-maverick,HI-PC01,hi,en,,,1,"""निम्नलिखित चरणों का पालन"", ""दर्ज करें"", transliterated labels with English in brackets",
+H179,llama4-maverick,HI-PC02,hi,hi,,,1,"Unquoted translated labels (""+नई चुनकर"", page title mid-sentence); awkward",
+H180,haiku-4.5,HI-PC02,hi,hi,,,2,"Simple, well-structured, easy Hindi",
+H180,haiku-4.5,HI-PC02,hi,both,,,2,"Simple, well-structured, easy Hindi",
+H181,nova2-lite,HI-PC02,hi,hi,,,1,"""का चयन करें"", gender slip ""की मदद सेक्शन"", mixed punctuation",
+H181,nova2-lite,HI-PC02,hi,both,,,1,"""का चयन करें"", gender slip ""की मदद सेक्शन"", mixed punctuation",
+H182,llama4-maverick,HI-PC02,hi,en,,,1,"""निम्नलिखित चरणों"", ""होवर करें"", ""जाने की सलाह दी जाती है""; translated",
+H183,llama4-maverick,HI-PC02,hi,both,,,1,Understandable; unquoted translated labels and page title read awkwardly,
+H184,nova2-lite,HI-PC02,hi,en,,,0,"Heavy translationese (""प्रबंधित करें"", ""संपादित करें"", ""चुनें ताकि...बनाया जा सके""); hard for everyday reader",
+H185,haiku-4.5,HI-PC02,hi,en,,,2,"Natural, clear, English labels",
+H186,llama4-maverick,HI-U01,hi,hi,,,1,"Clear but stiff ending (""अधिक जानकारी प्राप्त कर सकते हैं"")",
+H186,llama4-maverick,HI-U01,hi,both,,,1,"Clear but stiff ending (""अधिक जानकारी प्राप्त कर सकते हैं"")",
+H187,llama4-maverick,HI-U01,hi,en,,,1,"Clear but stiff ending (""अधिक जानकारी प्राप्त कर सकते हैं"")",
+H188,haiku-4.5,HI-U01,hi,hi,,,2,"Natural, polite, easy to read",
+H188,haiku-4.5,HI-U01,hi,both,,,2,"Natural, polite, easy to read",
+H189,haiku-4.5,HI-U01,hi,en,,,1,"Grammar slip ""आपकी कोई और तकनीकी समस्या में""; otherwise natural",
+H190,nova2-lite,HI-U01,hi,en,,,2,Simple natural Hindi,
+H191,nova2-lite,HI-U01,hi,hi,,,1,"Error ""मैं माफ़ चाहता हूँ"" (should be माफ़ी); otherwise fine",
+H191,nova2-lite,HI-U01,hi,both,,,1,"Error ""मैं माफ़ चाहता हूँ"" (should be माफ़ी); otherwise fine",
+H192,llama4-maverick,HI-U02,hi,hi,2,,2,"Short, plain, clear Hindi",test
+H193,nova2-lite,HI-U02,hi,both,,,1,"Gender error ""दिए गए जानकारी"", formal ""भुगतान विवरण"", odd ""इस मुद्दे में""",
+H194,nova2-lite,HI-U02,hi,en,,,1,"Gender error ""दिए गए जानकारी"", formal ""मार्गदर्शन प्रदान कर सकें""",
+H195,haiku-4.5,HI-U02,hi,en,,,2,Natural and clear,
+H195,haiku-4.5,HI-U02,hi,both,,,2,Natural and clear,
+H196,llama4-maverick,HI-U02,hi,en,,,1,"Stiff bookish phrasing (""आपके प्रश्न का उत्तर उपलब्ध जानकारी में नहीं है"")",
+H197,haiku-4.5,HI-U02,hi,hi,,,1,"Grammar slip ""आपको कोई और मदद कर सकता हूं""; otherwise natural",
+H198,llama4-maverick,HI-U02,hi,both,,,1,"Formal ""आपसे अनुरोध है"", ""समाधान कर सकें""; stiff",
+H199,nova2-lite,HI-U02,hi,hi,1,,1,"simple wording but gender error ""दिए गए जानकारी""",test
+H200,llama4-maverick,HI-U03,hi,en,,,2,"plain, natural everyday Hindi",
+H200,llama4-maverick,HI-U03,hi,both,,,2,"plain, natural everyday Hindi",
+H201,nova2-lite,HI-U03,hi,en,,,2,"natural, simple, common loanwords",
+H202,haiku-4.5,HI-U03,hi,en,,,1,"awkward ""जवाब देने के लिए जानकारी नहीं है"", repetitive",
+H203,llama4-maverick,HI-U03,hi,hi,2,,1,"odd construction ""मुझे ... जानकारी उपलब्ध नहीं है"", stiff",test
+H204,haiku-4.5,HI-U03,hi,hi,,,2,"clear and natural, easy to read",
+H204,haiku-4.5,HI-U03,hi,both,,,2,"clear and natural, easy to read",
+H205,nova2-lite,HI-U03,hi,hi,,,2,"natural, simple",
+H206,nova2-lite,HI-U03,hi,both,,,1,"odd phrasing ""जानकारी का स्पष्ट रूप से उत्तर नहीं दे सकता""",
+H207,llama4-maverick,HI-U04,hi,en,,,1,"awkward ""इस जानकारी के बारे में पता नहीं है कि"", stiff ""प्राप्त कर सकते हैं""",
+H208,nova2-lite,HI-U04,hi,hi,,,2,natural and simple,
+H208,nova2-lite,HI-U04,hi,both,,,2,natural and simple,
+H209,haiku-4.5,HI-U04,hi,hi,,,1,"gender error ""की रेगुलर सब्सक्रिप्शन"", confusing list structure",
+H210,llama4-maverick,HI-U04,hi,both,1,,1,"slightly stiff ""उपलब्ध नहीं है / जानकारी प्राप्त कर सकते हैं""",test
+H211,haiku-4.5,HI-U04,hi,en,,,1,"gender error ""की कस्टमर सपोर्ट"" twice",
+H212,haiku-4.5,HI-U04,hi,both,2,,1,"gender errors ""की रेगुलर सब्सक्रिप्शन"", ""की सब्सक्रिप्शन प्लान्स""; confusing list",test
+H213,llama4-maverick,HI-U04,hi,hi,,,1,"long stiff sentences, translated-sounding ""आप यह जान सकते हैं कि""",
+H214,nova2-lite,HI-U04,hi,en,,,1,"gender error ""दिए गए जानकारी"", stiff ""विवरण"", ""मार्गदर्शन कर सकेंगे""",
+H215,llama4-maverick,HI-U06,hi,hi,,,1,"stiff ""संपर्क करने का प्रयास कर सकते हैं"", ""जानकारी उपलब्ध नहीं है""",
+H216,nova2-lite,HI-U06,hi,hi,,,1,"grammar error ""इन जानकारी में"", bookish ""प्रश्न का सीधा उत्तर""",
+H217,llama4-maverick,HI-U06,hi,both,,,1,"stiff ""संपर्क करने का प्रयास कर सकते हैं""",
+H218,haiku-4.5,HI-U06,hi,en,,,1,"mostly natural but case error ""आपकी कोई और समस्या में""",
+H219,haiku-4.5,HI-U06,hi,hi,,,1,"slightly formal ""स्थिति की जांच"", ""समाधान प्रदान कर सकते हैं""",
+H219,haiku-4.5,HI-U06,hi,both,,,1,"slightly formal ""स्थिति की जांच"", ""समाधान प्रदान कर सकते हैं""",
+H220,nova2-lite,HI-U06,hi,en,1,,1,"gender error ""दिए गए जानकारी"", clumsy ""आपको आपके अकाउंट""",test
+H221,nova2-lite,HI-U06,hi,both,,,1,"gender error ""दिए गए जानकारी"", repetitive, Latin full stops",
+H222,llama4-maverick,HI-U06,hi,en,2,,2,"simple and natural, menu name kept in English",test
+H223,haiku-4.5,HI-U07,hi,hi,,,2,"natural, clear everyday Hindi",
+H223,haiku-4.5,HI-U07,hi,both,,,2,"natural, clear everyday Hindi",
+H224,haiku-4.5,HI-U07,hi,en,,,1,"mostly natural but case error ""कोई तकनीकी समस्या ... का सामना""",
+H225,llama4-maverick,HI-U07,hi,both,2,,2,"short, simple, easy to read",test
+H226,llama4-maverick,HI-U07,hi,en,,,1,"stiff ""उपलब्ध जानकारी में इसका उल्लेख नहीं है"", awkward relative clause",
+H227,nova2-lite,HI-U07,hi,en,,,2,"short and clear, slightly formal but easy",
+H228,llama4-maverick,HI-U07,hi,hi,,,1,"bureaucratic ""उपलब्ध जानकारी के अनुसार ... उत्तर नहीं दिया जा सकता""",
+H229,nova2-lite,HI-U07,hi,hi,,,1,"gender error ""दिए गए जानकारी"", stiff ""उल्लेख"", odd ""इस मुद्दे में मदद""",
+H229,nova2-lite,HI-U07,hi,both,,,1,"gender error ""दिए गए जानकारी"", stiff ""उल्लेख"", odd ""इस मुद्दे में मदद""",
+H230,llama4-maverick,HI-U09,hi,en,,,1,"bookish ""उत्तर देने में असमर्थ हूँ"", ""विवरण""",
+H231,llama4-maverick,HI-U09,hi,hi,,,2,"natural, plain Hindi",
+H232,haiku-4.5,HI-U09,hi,hi,,,2,"natural and clear, minor formality",
+H232,haiku-4.5,HI-U09,hi,both,,,2,"natural and clear, minor formality",
+H233,llama4-maverick,HI-U09,hi,both,,,1,"stiff, formal ""प्रश्न का उत्तर उपलब्ध जानकारी में नहीं है""",
+H234,haiku-4.5,HI-U09,hi,en,2,,2,"natural, simple",test
+H235,nova2-lite,HI-U09,hi,en,,,2,"short and clear, slightly formal but easy",
+H236,nova2-lite,HI-U09,hi,hi,,,1,"grammar error ""इन जानकारी में""",
+H236,nova2-lite,HI-U09,hi,both,,,1,"grammar error ""इन जानकारी में""",
+H237,llama4-maverick,HI-U10,hi,hi,,,1,"convoluted, translated-sounding, dangling link titles",
+H238,haiku-4.5,HI-U10,hi,en,,,1,"clumsy ""इस जानकारी के बारे में कोई विवरण नहीं है कि"", ""देखने के प्रतिबंध""",
+H239,nova2-lite,HI-U10,hi,en,1,,1,"grammar errors ""सीधे तरीका"", ""सीधे विकल्प""; awkward first sentence",test
+H240,haiku-4.5,HI-U10,hi,hi,,,2,"clear, natural enough",
+H241,nova2-lite,HI-U10,hi,both,,,1,"garbled mixed-script word ""रcente"", gender error ""देखी है""",
+H242,llama4-maverick,HI-U10,hi,en,,,1,"convoluted and repetitive, stiff ""सामग्री"", ""सक्रिय""",
+H243,nova2-lite,HI-U10,hi,hi,,,1,"gender error ""अपनी बच्चे की"" twice, stiff ""गतिविधि""",
+H244,llama4-maverick,HI-U10,hi,both,,,1,"translated-sounding ""दुर्भाग्य से"", ""देखी गई सामग्री का इतिहास""",
+H245,haiku-4.5,HI-U10,hi,both,2,,2,natural with everyday loanwords,test
+H246,llama4-maverick,HG-A01,hinglish,hi,2,,1,"Hinglish with transliterated formal Hindi ""sampark"", ""hal nahin hoti""",test
+H247,haiku-4.5,HG-A01,hinglish,en,1,,1,"odd opener ""Mujhe samajhna hai"", ""Ensure karein"", inconsistent ho/hain",test
+H248,nova2-lite,HG-A01,hinglish,en,,,1,"stiff ""स्वीकार"", ""चरणों"", ""लॉगिन विवरण""; errors ""अपने पासवर्ड"", ""कुछ बार""",
+H249,llama4-maverick,HG-A01,hinglish,en,,,1,"formal Hindi transliterated: ""samasya ka samadhan"", ""Yadi"", ""sampark""",
+H250,nova2-lite,HG-A01,hinglish,both,1,,0,"heavily formal: ""आपके प्रश्न के अनुसार, यदि"", ""गड़बड़ी कोड"", ""पुनः प्रयास"", translated button",test
+H251,llama4-maverick,HG-A01,hinglish,both,,,1,"clumsy ""steps ka follow"", formal ""aapke dwara bataya gaya"", confusing",
+H252,haiku-4.5,HG-A01,hinglish,both,,,2,"natural Hinglish as typed, minor slips",
+H253,haiku-4.5,HG-A01,hinglish,hi,,,1,"odd opener ""Mujhe samajhna hai""; rest natural",
+H254,nova2-lite,HG-A01,hinglish,hi,,,1,"menu names translated (""अकाउंट और सेटिंग्स"", ""डीरजिस्टर""), ""स्वीकार""",
+H255,llama4-maverick,HG-B01,hinglish,hi,,,1,"stiff ""अनजान शुल्क"", ""मदद प्राप्त कर सकते हैं""; reads translated",
+H256,haiku-4.5,HG-B01,hinglish,hi,,,1,"clumsy ""charge ho sakte hain"", odd ""Aapne kya subscribe nahi kiya""",
+H257,nova2-lite,HG-B01,hinglish,hi,,,1,"bookish ""शीर्षक"", ""सत्यापन""; garbled sentence about bank verification",
+H258,nova2-lite,HG-B01,hinglish,en,,,1,"Sanskritised ""नवीनीकरण/नवीनीकृत"", odd ""कार्ड्स का जुड़ाव"", awkward word order",
+H259,llama4-maverick,HG-B01,hinglish,en,2,,1,"awkward ""renew hua ho sakta hai"", formal ""jaanch"", ""sampark""",test
+H260,nova2-lite,HG-B01,hinglish,both,1,,0,"heavy official Hindi: ""स्वचालित रूप से नवीनीकृत"", ""शुल्क"", ""प्रतिबंध"", translated menu names",test
+H261,haiku-4.5,HG-B01,hinglish,both,2,,2,"natural Hinglish, reads like an agent typing",test
+H262,llama4-maverick,HG-B01,hinglish,both,,,1,"awkward ""renew hua ho sakta hai"", ""judi hui additional cards"", ""jaanch""",
+H263,haiku-4.5,HG-B01,hinglish,en,,,2,"natural Hinglish, one small slip",
+H264,haiku-4.5,HG-B05,hinglish,en,,,2,"natural, casual Hinglish",
+H264,haiku-4.5,HG-B05,hinglish,both,,,2,"natural, casual Hinglish",
+H265,llama4-maverick,HG-B05,hinglish,hi,,,1,"Understandable Hinglish but country names switch to Devanagari and one word has stray Cyrillic letters; ""uplabdh tareeke"" stiff",
+H266,haiku-4.5,HG-B05,hinglish,hi,,,2,"Simple, clear everyday Hindi with normal English loanwords",
+H267,nova2-lite,HG-B05,hinglish,en,,,2,"Natural Hinglish as people type it; only ""sampark karein"" slightly formal",
+H267,nova2-lite,HG-B05,hinglish,both,,,2,"Natural Hinglish as people type it; only ""sampark karein"" slightly formal",
+H268,llama4-maverick,HG-B05,hinglish,en,,,2,"Short, natural Hinglish",
+H268,llama4-maverick,HG-B05,hinglish,both,,,2,"Short, natural Hinglish",
+H269,nova2-lite,HG-B05,hinglish,hi,,,1,"Awkward ""स्वीकार किए जाने वाला पेमेंट तरीका"" (agreement error), translated-sounding",
+H270,llama4-maverick,HG-C01,hinglish,en,,,1,"""in steps ka palan karein"" is formal Hindi transliterated; gender error ""end date dikhayi dega""",
+H271,haiku-4.5,HG-C01,hinglish,en,,,2,"Natural, easy Hinglish with UI names in English",
+H272,llama4-maverick,HG-C01,hinglish,both,2,,1,"Transliterated formal Hindi (""Wah ... dhoondhein jise""), gender error ""date dikhayi dega""",test
+H273,nova2-lite,HG-C01,hinglish,both,,,1,"UI button/menu names translated into Hindi (""अकाउंट और सेटिंग"", ""वापस लें""), ""शुल्क"" bookish",
+H274,llama4-maverick,HG-C01,hinglish,hi,,,1,"Clumsy script mix, ""Akount"", ""Fir"", bookish ""antim tithi"", ""shulk""",
+H275,haiku-4.5,HG-C01,hinglish,both,,,2,"Clear everyday Hindi, UI names kept in English",
+H276,nova2-lite,HG-C01,hinglish,hi,,,1,"UI names translated (""अनसब्सक्राइब करें"", ""वापस लें""), reads like official translation",
+H277,haiku-4.5,HG-C01,hinglish,hi,1,,2,"Simple, natural Hindi, easy to read; UI names mostly in English",test
+H278,nova2-lite,HG-C01,hinglish,en,2,,1,"Mostly natural but clumsy bits: ""confirmation de kar confirm karein"", ""aapko charges nahi honge"", confusing Apple sentence",test
+H279,haiku-4.5,HG-D01,hinglish,hi,,,1,"Grammar error ""आपके device limit reach हो गए हैं""; button translated as ""हटाएं""",
+H280,nova2-lite,HG-D01,hinglish,both,,,2,"Natural Hinglish, clear steps; slightly wordy opening",
+H281,nova2-lite,HG-D01,hinglish,en,,,1,"Natural overall but broken ""aur devices ko hata na ho"" and ""apna membership""",
+H282,llama4-maverick,HG-D01,hinglish,both,,,1,"Formal Hindi transliterated: ""suchi dikhayi degi"", ""Us device ko chune"", ""ek 30-din ke dauran""",
+H283,haiku-4.5,HG-D01,hinglish,en,,,2,"Natural, concise Hinglish",
+H283,haiku-4.5,HG-D01,hinglish,both,,,2,"Natural, concise Hinglish",
+H284,llama4-maverick,HG-D01,hinglish,hi,1,,1,"Stray Devanagari ""नीले टिक"" inside Latin Hinglish; otherwise fine",test
+H285,llama4-maverick,HG-D01,hinglish,en,,,1,"Understandable but translated-sounding (""dikhayi denge"", ""ek 30-din ke dauran"")",
+H286,nova2-lite,HG-D01,hinglish,hi,,,1,"UI names translated (""हटाएं"", ""डिवाइस सेक्शन""), stiff ""पर्याप्त होनी चाहिए"", ""डिवाइसों""",
+H287,llama4-maverick,HG-DL01,hinglish,both,0,,0,Answer is entirely in English,test
+H288,nova2-lite,HG-DL01,hinglish,hi,,,1,"Bookish ""शीर्षक"", gender error ""डाउनलोड की जा सकने वाली शीर्षकों"", translated feel",
+H289,haiku-4.5,HG-DL01,hinglish,en,,,2,"Natural Hinglish; minor ""limit ... ho sakta hai"" slip",
+H290,nova2-lite,HG-DL01,hinglish,both,,,1,"Stiff translated terms ""सुसंगत डाउनलोड डिवाइस"", ""समर्थित हैं""",
+H291,haiku-4.5,HG-DL01,hinglish,hi,,,1,"Mostly simple but ""सुसंगत डाउनलोड डिवाइस"" is unnatural translated wording",
+H292,haiku-4.5,HG-DL01,hinglish,both,1,,2,"Simple, natural Hindi-English mix",test
+H293,llama4-maverick,HG-DL01,hinglish,hi,,,0,"Garbled (""anya kaarnon ke alap bhar hoti hai""), hard to follow",
+H294,nova2-lite,HG-DL01,hinglish,en,2,,1,"First sentence does not parse cleanly; ""teesri party"", ""sthan"", ""nirbhar karti hai"" stiff",test
+H295,llama4-maverick,HG-DL01,hinglish,en,,,0,"Heavy formal transliterated Hindi with script mixing; ""nirdharan"", ""kaarakon ke aadhaar par bharatiya upyogkarta ke liye vary karti hai"" hard to follow",
+H296,llama4-maverick,HG-DL02,hinglish,both,,,2,"Short, natural Hinglish",
+H297,nova2-lite,HG-DL02,hinglish,hi,1,,1,"Readable but bookish (""अस्थायी"", ""निर्धारित"", ""खाते"", ""अधिकतम संख्या"")",test
+H298,nova2-lite,HG-DL02,hinglish,both,,,2,"Simple, clear Hindi with ordinary loanwords",
+H299,nova2-lite,HG-DL02,hinglish,en,,,1,"Formal register: ""यदि"", ""बशर्ते"", ""समयसीमा"", ""कारकों के आधार पर भिन्न""",
+H300,haiku-4.5,HG-DL02,hinglish,en,,,2,Natural everyday Hindi-English mix,
+H300,haiku-4.5,HG-DL02,hinglish,both,,,2,Natural everyday Hindi-English mix,
+H301,haiku-4.5,HG-DL02,hinglish,hi,1,,1,"Stiff words ""सटीक"", ""शीर्षक"", ""एक्सपायरी अवधि"", ""विस्तृत जानकारी""",test
+H302,llama4-maverick,HG-DL02,hinglish,hi,,,1,"Transliterated formal Hindi; non-word ""aasthami roop se"", ""uplabdhata seemit samay""",
+H303,llama4-maverick,HG-DL02,hinglish,en,2,,1,"First sentence natural, second is clumsy (""download ki limit par kitne titles hain"")",test
+H304,nova2-lite,HG-P03,hinglish,en,,,1,"Understandable but clumsy: ""connect hone ka pata lagayein"", ""use nahi karane de"", ""ye ensure karein""",
+H305,llama4-maverick,HG-P03,hinglish,hi,,,1,"Formal transliterated (""samasya hal nahin hoti"", ""adhik jaankari"") plus Devanagari title mid-sentence",
+H306,haiku-4.5,HG-P03,hinglish,hi,,,2,"Clear everyday Hindi, setting names in English",
+H307,llama4-maverick,HG-P03,hinglish,en,2,,1,"Awkward mix: ""issue persist karta hai"", ""anya devices"", ""prapt kar sakte hain""",test
+H308,llama4-maverick,HG-P03,hinglish,both,,,1,"Script switching mid-sentence (""प्रयास करें"", Devanagari page titles), formal ""samasya hal nahin hoti""",
+H309,haiku-4.5,HG-P03,hinglish,en,,,2,"Natural, well-structured Hinglish",
+H310,nova2-lite,HG-P03,hinglish,hi,,,1,"Agreement error in opening (""आपके वीडियो ... हो रहा है""), setting names transliterated to Hindi, stiff ""प्रतीक्षा करें""",
+H311,nova2-lite,HG-P03,hinglish,both,1,,1,"Same opening agreement error, TV setting names transliterated, ""प्रतीक्षा करें""",test
+H312,haiku-4.5,HG-P03,hinglish,both,1,,2,"Natural Hindi-English mix, easy to read",test
+H313,llama4-maverick,HG-U02,hinglish,both,,,0,Answer is entirely in English,
+H314,llama4-maverick,HG-U02,hinglish,en,,,1,"Stiff passive ""Aapko suggest kiya jata hai"", ""information nahin mil saki""",
+H315,haiku-4.5,HG-U02,hinglish,hi,1,,1,"Understandable but formal (""मुझे खेद है"", ""भुगतान संबंधी समस्याओं"", ""स्थिति"")",test
+H316,nova2-lite,HG-U02,hinglish,both,,,1,"Formal ""प्रश्न का उत्तर"", ""आवश्यक जानकारी"", ""ग्राहक सहायता""",
+H317,nova2-lite,HG-U02,hinglish,en,1,,1,"Odd translated phrasing ""आपके पास दिए गए मदद केंद्र के अंशों में""",test
+H318,llama4-maverick,HG-U02,hinglish,hi,,,1,"Clumsy: ""प्रॉम्प्ट मिल रहा है"", mismatched ""जा सकते हैं और देखें""",
+H319,haiku-4.5,HG-U02,hinglish,both,,,2,"Simple, polite, natural Hindi",
+H320,nova2-lite,HG-U02,hinglish,hi,,,1,"Grammar slip ""इन जानकारी में"", formal ""प्रश्न का उत्तर""",
+H321,haiku-4.5,HG-U02,hinglish,en,,,2,"Natural Hinglish; minor ""information nahi mila""",
+H322,llama4-maverick,HG-U07,hinglish,both,,,1,"Stiff: ""उपलब्ध जानकारी के अनुसार"", ""संपर्क करने पर विचार कर सकते हैं""",
+H323,nova2-lite,HG-U07,hinglish,en,,,1,"Clumsy Hinglish: ""help-center excerpts"", ""suggest karta hoon"", ""solution provide kar sakte hain""",
+H324,nova2-lite,HG-U07,hinglish,hi,,,2,"Short, simple, easy Hindi",
+H325,haiku-4.5,HG-U07,hinglish,hi,1,,2,"Natural Hindi-English mix, clear",test
+H326,haiku-4.5,HG-U07,hinglish,en,,,1,"Convoluted first sentence, gender error ""meri paas"", wordy",
+H327,haiku-4.5,HG-U07,hinglish,both,,,2,"Simple, natural Hindi; minor slip in the last line",
+H328,llama4-maverick,HG-U07,hinglish,en,,,1,"Formal transliterated bits: ""Yadi"", ""salah di jaati hai"", ""issue ho raha hai""",
+H329,nova2-lite,HG-U07,hinglish,both,0,,1,"Translated-sounding ""दिए गए मदद केंद्र अंशों में"", ""समाधान प्रदान कर सकेंगे""",test
+H330,llama4-maverick,HG-U07,hinglish,hi,1,,1,"Grammar error ""Unhone aapko ... de sakte hain"", formal ""samasya ka samadhan""",test

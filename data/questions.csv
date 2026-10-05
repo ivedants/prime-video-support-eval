@@ -1,0 +1,71 @@
+qid,pair_id,category,language,answerable,expected_article_id,question,notes,status
+EN-B01,B01,billing,en,yes,GENY3HHV8GU34P3K,i got a prime video charge on my card but i never signed up for anything?? what is this,,final
+EN-B02,B02,billing,en,yes,GSUW4Y2CS69S8ZYD,payment keeps failing when i try to rent a movie. tried 2 cards. what do i do,,final
+EN-B03,B03,billing,en,yes,ThlENNbZ5gxXv9QGjr,if i take prime lite can i watch on both my tv and my phone?,India-specific,final
+EN-B04,B04,billing,en,yes,G46D9B5G2EAGM65W;ThlENNbZ5gxXv9QGjr,how do i upgrade from mobile edition to full prime so i can use the tv,India-specific; needs two articles: Mobile Edition (upgrade options) + Devices Limit (primevideo.com/upgrade),final
+EN-B05,B05,billing,en,yes,TtmpPpt4SHTjHQsAEX,can i pay for prime video with UPI or only card?,"India-specific; UPI accepted in India for Prime, PV subscriptions, add-ons, Ad Free, rentals/purchases",final
+EN-P01,P01,playback,en,yes,G8X362NHQ64MH5SY,"getting error 7235 in chrome, nothing plays",,final
+EN-P02,P02,playback,en,yes,G67ZXAW3XXV42YPB;GSUW4Y2CS69S8ZYD,error 2063 when i try to buy an episode,dedicated 2063 article + payment/order errors article both cover it,final
+EN-P03,P03,playback,en,yes,GU85HKX66NVFNQ9Y;GL8WMKLCYL8NU5FS,video keeps buffering and the picture looks blurry even though my wifi is fine,,final
+EN-P04,P04,playback,en,partial,GP57SKQ7CB5DRS6F,live match stream keeps freezing and going behind the actual score,"freezing covered (device, 1/5 Mb/s speeds); 'behind the actual score' (stream delay) is not covered",final
+EN-D01,D01,devices,en,yes,ThlENNbZ5gxXv9QGjr,it says devices limit reached. how do i remove my old phone from my account,India-specific,final
+EN-D02,D02,devices,en,partial,GQDJBTL3CFLLKPBV,how do i get prime video on my samsung smart tv,"article covers generic install + registration, nothing Samsung-specific; tests admitting the gap",final
+EN-D03,D03,devices,en,yes,GQHPEUU6QMLL7CU9,app is stuck on loading screen on my android phone how do i close it properly,,final
+EN-DL01,DL01,downloads,en,partial,G202095500,how many movies can i download at once,Usage Rules: a max exists but 'may vary based on your location'; 2 devices per title. No number given — watch for invented limits,final
+EN-DL02,DL02,downloads,en,yes,G202095500,how long do downloaded episodes stay on my phone before they expire,"Usage Rules: typically 30 days to start, 48 hours to finish",final
+EN-DL03,DL03,downloads,en,yes,GMF637NHNEF9D8GT,can i download stuff on my laptop to watch on a flight,macOS and Windows 10/11 apps support downloads,final
+EN-C01,C01,channels,en,yes,G3BQ95AL4WZLV9ZG,"how do i cancel a channel i added, dont want to get billed next month",Account & Settings > Subscriptions > Unsubscribe; no refund of past charges; Apple: cancel 24h before renewal,final
+EN-C02,C02,channels,en,no,,do channels come with a free trial or do they charge right away,confirmed: no saved article says whether add-ons have free trials. Distractor: Unknown Charges mentions a Prime free trial + add-on billing dates,final
+EN-PC01,PC01,parental_profiles,en,yes,G26NRYUT8ATMMZRB;G5VD9FKYCXW8RDK9;GLXEVNQYW2WHZ6JP;GW6A4BDCD47N99YU,how do i put a pin so my kids cant watch adult shows,,final
+EN-PC02,PC02,parental_profiles,en,yes,GD8VJD2EDJ2GSNEC;GYKZXYTPAKNP7UU4;G5K5H8YYNEXNYEXH;G7YSAVDEETUWU27Q;G36R57HJZELY4ZV4,how to make a separate profile for my kid,up to 6 profiles incl. Kids; creation steps per platform,final
+EN-A01,A01,account_access,en,partial,GDCTD7L6N6R96WVK;GQDJBTL3CFLLKPBV,"cant sign in on my tv, the code it shows doesnt work on the website","sign-in article: check account, retry; install article: register-device code/QR. No specific fix for a rejected code",final
+EN-A02,A02,account_access,en,yes,GJ2P83PMNC54XKV9,"going to the US for a month from india, will my prime video work there",selected titles stream abroad; catalog may change; download before travel,final
+EN-U01,U01,playback,en,no,,when is the next season of my favourite web series coming on prime,unanswerable: release dates,final
+EN-U02,U02,billing,en,no,,"my refund of 299 rupees from last week still hasnt come, where is it",unanswerable: needs account lookup; should route to support,final
+EN-U03,U03,billing,en,no,,is the prime price going up next year?,unanswerable: future pricing,final
+EN-U04,U04,devices,en,no,,which jio or airtel plan is best for watching prime in HD,unanswerable: third-party recommendation,final
+EN-U06,U06,account_access,en,no,,why did my account get blocked yesterday,unanswerable: account-specific; should route to support,final
+EN-U07,U07,playback,en,no,,why was the hindi dub removed from the show i was watching,confirmed: not covered in the saved corpus,final
+EN-DL04,DL04,downloads,en,partial,G202095500,can i move my downloads from my old phone to my new phone,Usage Rules: a title can be downloaded to 2 devices at once; delete from one to download on another. Doesn't say 'transfer' — reclassified from unanswerable,final
+EN-U09,U09,billing,en,no,,can i get a GST invoice for my prime video subscription for my office,confirmed: not covered in the saved corpus,final
+EN-U10,U10,parental_profiles,en,no,,can i see what my kid watched on their profile last night,confirmed: not covered in the saved corpus,final
+HI-B01,B01,billing,hi,yes,GENY3HHV8GU34P3K,मेरे कार्ड से Prime Video का पैसा कट गया लेकिन मैंने तो कुछ साइन अप ही नहीं किया?? ये क्या चार्ज है,,final
+HI-B02,B02,billing,hi,yes,GSUW4Y2CS69S8ZYD,"मूवी रेंट करते टाइम पेमेंट बार बार फेल हो रहा है, 2 कार्ड ट्राई कर लिए. अब क्या करूं",,final
+HI-B03,B03,billing,hi,yes,ThlENNbZ5gxXv9QGjr,अगर मैं प्राइम लाइट लूं तो क्या टीवी और फोन दोनों पे देख सकती हूं?,,final
+HI-B04,B04,billing,hi,yes,G46D9B5G2EAGM65W;ThlENNbZ5gxXv9QGjr,मोबाइल एडिशन से फुल प्राइम में अपग्रेड कैसे करूं ताकि टीवी पे चला सकूं,,final
+HI-B05,B05,billing,hi,yes,TtmpPpt4SHTjHQsAEX,क्या Prime Video का पेमेंट UPI से कर सकते हैं या सिर्फ कार्ड से?,,final
+HI-P01,P01,playback,hi,yes,G8X362NHQ64MH5SY,"क्रोम में error 7235 आ रहा है, कुछ भी प्ले नहीं हो रहा",,final
+HI-P02,P02,playback,hi,yes,G67ZXAW3XXV42YPB;GSUW4Y2CS69S8ZYD,एपिसोड खरीदने की कोशिश करता हूं तो error 2063 आता है,,final
+HI-P03,P03,playback,hi,yes,GU85HKX66NVFNQ9Y;GL8WMKLCYL8NU5FS,वीडियो बार बार बफर हो रहा है और पिक्चर धुंधली दिख रही है जबकि वाईफाई ठीक है,,final
+HI-P04,P04,playback,hi,partial,GP57SKQ7CB5DRS6F,लाइव मैच की स्ट्रीम बार बार अटक रही है और असली स्कोर से पीछे चल रही है,,final
+HI-D01,D01,devices,hi,yes,ThlENNbZ5gxXv9QGjr,डिवाइस लिमिट रीच्ड लिखा आ रहा है. अपने पुराने फोन को अकाउंट से कैसे हटाऊं,,final
+HI-D02,D02,devices,hi,partial,GQDJBTL3CFLLKPBV,सैमसंग स्मार्ट टीवी पे प्राइम वीडियो कैसे चलाऊं,,final
+HI-D03,D03,devices,hi,yes,GQHPEUU6QMLL7CU9,"एंड्रॉयड फोन पे ऐप लोडिंग स्क्रीन पे ही अटका है, इसे सही से बंद कैसे करूं",,final
+HI-DL01,DL01,downloads,hi,partial,G202095500,एक बार में कितनी मूवी डाउनलोड कर सकते हैं,,final
+HI-DL02,DL02,downloads,hi,yes,G202095500,"डाउनलोड किए हुए एपिसोड फोन में कितने दिन रहते हैं, एक्सपायर कब होते हैं",,final
+HI-DL03,DL03,downloads,hi,yes,GMF637NHNEF9D8GT,क्या लैपटॉप पे डाउनलोड करके फ्लाइट में देख सकती हूं,,final
+HI-C01,C01,channels,hi,yes,G3BQ95AL4WZLV9ZG,"जो चैनल ऐड किया था उसे कैंसल कैसे करूं, अगले महीने पैसे नहीं कटने चाहिए",,final
+HI-C02,C02,channels,hi,no,,चैनल्स में फ्री ट्रायल मिलता है या सीधे पैसे कट जाते हैं,,final
+HI-PC01,PC01,parental_profiles,hi,yes,G26NRYUT8ATMMZRB;G5VD9FKYCXW8RDK9;GLXEVNQYW2WHZ6JP;GW6A4BDCD47N99YU,पिन कैसे लगाऊं ताकि बच्चे एडल्ट शो ना देख पाएं,,final
+HI-PC02,PC02,parental_profiles,hi,yes,GD8VJD2EDJ2GSNEC;GYKZXYTPAKNP7UU4;G5K5H8YYNEXNYEXH;G7YSAVDEETUWU27Q;G36R57HJZELY4ZV4,बच्चे के लिए अलग प्रोफाइल कैसे बनाएं,,final
+HI-A01,A01,account_access,hi,partial,GDCTD7L6N6R96WVK;GQDJBTL3CFLLKPBV,"टीवी पे साइन इन नहीं हो रहा, जो कोड दिखा रहा है वो वेबसाइट पे काम नहीं कर रहा",,final
+HI-A02,A02,account_access,hi,yes,GJ2P83PMNC54XKV9,"इंडिया से एक महीने के लिए अमेरिका जा रही हूं, वहां मेरा प्राइम वीडियो चलेगा क्या",,final
+HI-U01,U01,playback,hi,no,,मेरी फेवरेट वेब सीरीज़ का अगला सीज़न प्राइम पे कब आएगा,,final
+HI-U02,U02,billing,hi,no,,"पिछले हफ्ते का 299 रुपये का रिफंड अभी तक नहीं आया, कहां है",,final
+HI-U03,U03,billing,hi,no,,क्या अगले साल प्राइम का प्राइस बढ़ने वाला है?,,final
+HI-U04,U04,devices,hi,no,,प्राइम HD में देखने के लिए जियो या एयरटेल का कौन सा प्लान बेस्ट है,,final
+HI-U06,U06,account_access,hi,no,,मेरा अकाउंट कल ब्लॉक क्यों हो गया,,final
+HI-U07,U07,playback,hi,no,,जो शो मैं देख रही थी उसकी हिंदी डबिंग क्यों हटा दी,,final
+HI-DL04,DL04,downloads,hi,partial,G202095500,क्या पुराने फोन से नए फोन में डाउनलोड्स ट्रांसफर कर सकते हैं,,final
+HI-U09,U09,billing,hi,no,,क्या ऑफिस के लिए प्राइम वीडियो सब्सक्रिप्शन का GST इनवॉइस मिल सकता है,,final
+HI-U10,U10,parental_profiles,hi,no,,क्या मैं देख सकता हूं कि कल रात मेरे बच्चे ने अपनी प्रोफाइल पे क्या देखा,,final
+HG-B01,B01,billing,hinglish,yes,GENY3HHV8GU34P3K,"mere card se prime video ka paisa kat gaya par maine kuch subscribe hi nahi kiya, ye kya charge hai??",,final
+HG-B05,B05,billing,hinglish,yes,TtmpPpt4SHTjHQsAEX,prime video ka payment UPI se ho sakta hai kya ya sirf card se,,final
+HG-P03,P03,playback,hinglish,yes,GU85HKX66NVFNQ9Y;GL8WMKLCYL8NU5FS,"video baar baar buffer ho raha hai aur picture blur aa rahi hai, wifi toh theek hai",,final
+HG-D01,D01,devices,hinglish,yes,ThlENNbZ5gxXv9QGjr,"devices limit reached aa raha hai, purana phone account se kaise hataun",,final
+HG-DL01,DL01,downloads,hinglish,partial,G202095500,ek baar me kitni movies download kar sakte hai,,final
+HG-DL02,DL02,downloads,hinglish,yes,G202095500,download kiye hue episodes phone me kitne din tak rehte hai,,final
+HG-C01,C01,channels,hinglish,yes,G3BQ95AL4WZLV9ZG,"jo channel add kiya tha usko cancel kaise kare, next month paise nahi katne chahiye",,final
+HG-A01,A01,account_access,hinglish,partial,GDCTD7L6N6R96WVK;GQDJBTL3CFLLKPBV,"tv pe sign in nahi ho raha, jo code dikha raha hai woh website pe accept nahi ho raha",,final
+HG-U02,U02,billing,hinglish,no,,"last week ka 299 ka refund abhi tak nahi aaya, kab aayega",,final
+HG-U07,U07,playback,hinglish,no,,jo show dekh rahi thi uski hindi dubbing kyu hata di,,final

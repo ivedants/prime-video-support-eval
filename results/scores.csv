@@ -1,0 +1,451 @@
+model,qid,pair_id,language,corpus,category,answerable,retrieval_hit,unit_id,correctness,made_up,abstained,lang_match,reason,scorer
+haiku-4.5,EN-B01,B01,en,en,billing,yes,True,u085,2,n,,y,"All three causes, Account & Settings check, PIN tip",llm-judge
+llama4-maverick,EN-B01,B01,en,en,billing,yes,True,u173,2,n,,y,"All causes covered, brief",llm-judge
+nova2-lite,EN-B01,B01,en,en,billing,yes,True,u383,2,n,,n,"Content correct and complete, but English question answered in Hindi",llm-judge
+haiku-4.5,EN-U02,U02,en,en,billing,no,,u309,2,n,y,y,"Clear decline, routes to support; generic pointer to where support is found",llm-judge
+llama4-maverick,EN-U02,U02,en,en,billing,no,,u326,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,EN-U02,U02,en,en,billing,no,,u168,2,n,y,y,"Clear decline, routes to support for account lookup",llm-judge
+haiku-4.5,HI-B05,B05,hi,en,billing,yes,True,u126,2,n,,y,UPI in India for subscriptions and Ad Free,llm-judge
+llama4-maverick,HI-B05,B05,hi,en,billing,yes,True,u036,2,n,,y,UPI in India plus cards,llm-judge
+nova2-lite,HI-B05,B05,hi,en,billing,yes,True,u279,2,n,,y,UPI in India for all payment types,llm-judge
+haiku-4.5,HI-B05,B05,hi,hi,billing,yes,True,u103,2,n,,y,UPI in India across payment types,llm-judge
+llama4-maverick,HI-B05,B05,hi,hi,billing,yes,True,u220,2,n,,y,UPI in India plus cards,llm-judge
+nova2-lite,HI-B05,B05,hi,hi,billing,yes,True,u115,2,n,,y,UPI in India; wallet note,llm-judge
+haiku-4.5,HI-B05,B05,hi,both,billing,yes,True,u411,2,n,,y,UPI and cards; wallet note from excerpt,llm-judge
+llama4-maverick,HI-B05,B05,hi,both,billing,yes,True,u402,2,n,,y,UPI in India plus cards,llm-judge
+nova2-lite,HI-B05,B05,hi,both,billing,yes,True,u420,2,n,,y,UPI in India; lists other countries' methods from excerpt,llm-judge
+haiku-4.5,HI-D02,D02,hi,en,devices,partial,True,u240,1,n,n,y,"General install steps correct; suggests support if app not found, but doesn't say steps are generic",llm-judge
+llama4-maverick,HI-D02,D02,hi,en,devices,partial,True,u096,1,n,n,y,General install steps correct; gap not flagged,llm-judge
+nova2-lite,HI-D02,D02,hi,en,devices,partial,True,u119,1,n,n,y,General install and registration steps correct; gap not flagged,llm-judge
+haiku-4.5,HI-D02,D02,hi,hi,devices,partial,False,u182,1,n,y,y,Search missed; says it lacks details and points to the compatible devices page,llm-judge
+llama4-maverick,HI-D02,D02,hi,hi,devices,partial,False,u015,1,y,n,y,"Search returned Usage Rules; points to compatible-devices page, then gives install/login steps not in the excerpts",llm-judge
+nova2-lite,HI-D02,D02,hi,hi,devices,partial,False,u093,0,y,n,y,Search missed; invents 'Galaxy Store' and account-creation step; adds unrelated streaming limits,llm-judge
+haiku-4.5,HI-D02,D02,hi,both,devices,partial,False,u182,1,n,y,y,Search missed; says it lacks details and points to the compatible devices page,llm-judge
+llama4-maverick,HI-D02,D02,hi,both,devices,partial,False,u189,1,y,n,y,Search returned Usage Rules; compatible-devices pointer plus install steps not in the excerpts,llm-judge
+nova2-lite,HI-D02,D02,hi,both,devices,partial,False,u155,0,y,n,y,Search missed; invents 'Galaxy Store' and account-creation step; adds unrelated streaming limits,llm-judge
+haiku-4.5,HG-DL01,DL01,hinglish,en,downloads,partial,True,u181,2,n,y,y,"Clear: a limit exists, varies by location, number not given; adds two-device rule; Hinglish",llm-judge
+llama4-maverick,HG-DL01,DL01,hinglish,en,downloads,partial,True,u011,2,n,y,y,Says a maximum is set and varies by location; points to support; Hinglish,llm-judge
+nova2-lite,HG-DL01,DL01,hinglish,en,downloads,partial,True,u293,2,n,y,y,Maximum exists and depends on location; two-device rule; Hinglish,llm-judge
+haiku-4.5,HG-DL01,DL01,hinglish,hi,downloads,partial,True,u204,2,n,y,n,Device rules plus 'a maximum exists and varies by country'; Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-DL01,DL01,hinglish,hi,downloads,partial,True,u178,2,n,y,y,Says the maximum varies by country and points to the download page; Hinglish is garbled in places,llm-judge
+nova2-lite,HG-DL01,DL01,hinglish,hi,downloads,partial,True,u250,1,n,y,n,"Mobile Edition one-device rule stated as general, then 'maximum varies'; Devanagari reply to Hinglish",llm-judge
+haiku-4.5,HG-DL01,DL01,hinglish,both,downloads,partial,True,u020,1,n,y,n,"Excerpts lacked the limit sentence; says it doesn't know the number, gives device rules; Devanagari reply to Hinglish",llm-judge
+llama4-maverick,HG-DL01,DL01,hinglish,both,downloads,partial,True,u331,1,n,y,n,Says no limit is mentioned; device rules; replied in English to Hinglish,llm-judge
+nova2-lite,HG-DL01,DL01,hinglish,both,downloads,partial,True,u386,1,n,n,n,Presents 'four devices' as the answer; no mention that the title limit is unspecified; Devanagari reply to Hinglish,llm-judge
+haiku-4.5,EN-B02,B02,en,en,billing,yes,True,u180,2,n,,y,"All fixes: card details, funds, bank, other method, verification",llm-judge
+llama4-maverick,EN-B02,B02,en,en,billing,yes,True,u225,2,n,,y,"Core fixes from the article, concise",llm-judge
+nova2-lite,EN-B02,B02,en,en,billing,yes,True,u255,2,n,,n,Correct steps but English question answered in Hinglish,llm-judge
+haiku-4.5,EN-B03,B03,en,en,billing,yes,True,u185,2,n,,y,"One device only, first device locks in",llm-judge
+llama4-maverick,EN-B03,B03,en,en,billing,yes,True,u270,2,n,,y,"One device, mobile or TV; not both",llm-judge
+nova2-lite,EN-B03,B03,en,en,billing,yes,True,u165,2,n,,y,One device only; notes third-party Prime Lite allows one or two,llm-judge
+haiku-4.5,EN-B04,B04,en,en,billing,yes,True,u153,2,n,,y,"Upgrade link, plan options, TV setup steps",llm-judge
+llama4-maverick,EN-B04,B04,en,en,billing,yes,True,u268,2,n,,y,"Upgrade link and plan options, brief",llm-judge
+nova2-lite,EN-B04,B04,en,en,billing,yes,True,u364,2,y,,y,Upgrade link correct; adds sign-in/choose-plan steps that the excerpts don't describe,llm-judge
+haiku-4.5,EN-B05,B05,en,en,billing,yes,True,u027,2,n,,y,UPI available in India; asks which country,llm-judge
+llama4-maverick,EN-B05,B05,en,en,billing,yes,True,u215,2,n,,y,UPI in India plus cards,llm-judge
+nova2-lite,EN-B05,B05,en,en,billing,yes,True,u355,2,n,,y,"UPI in India for subscriptions, rentals, purchases",llm-judge
+haiku-4.5,EN-P01,P01,en,en,playback,yes,True,u012,2,n,,y,"All three fixes: update Chrome, Widevine, protected content settings",llm-judge
+llama4-maverick,EN-P01,P01,en,en,playback,yes,True,u191,2,n,,y,All three fixes plus general playback checks from excerpt,llm-judge
+nova2-lite,EN-P01,P01,en,en,playback,yes,True,u024,2,n,,n,"All fixes correct, but English question answered in Hindi",llm-judge
+haiku-4.5,EN-P02,P02,en,en,playback,yes,True,u232,2,n,,y,"All payment fixes, well ordered",llm-judge
+llama4-maverick,EN-P02,P02,en,en,playback,yes,True,u101,2,n,,y,"Payment details, update method, funds, bank, other method",llm-judge
+nova2-lite,EN-P02,P02,en,en,playback,yes,True,u274,2,n,,n,All fixes correct but English question answered in Hinglish,llm-judge
+haiku-4.5,EN-P03,P03,en,en,playback,yes,True,u070,2,n,,y,"Restart, pause other activity, updates, reinstall",llm-judge
+llama4-maverick,EN-P03,P03,en,en,playback,yes,True,u354,2,n,,y,"Pause other activity, restart, update; brief",llm-judge
+nova2-lite,EN-P03,P03,en,en,playback,yes,True,u283,2,n,,y,Full set of steps incl. ISP/DNS check,llm-judge
+haiku-4.5,EN-P04,P04,en,en,playback,partial,True,u345,2,n,y,y,Freezing steps correct and says it has no information on the stream running behind,llm-judge
+llama4-maverick,EN-P04,P04,en,en,playback,partial,True,u046,1,n,n,y,Freezing steps correct; says nothing about not being able to explain the delay,llm-judge
+nova2-lite,EN-P04,P04,en,en,playback,partial,True,u198,1,n,n,n,"Freezing steps correct, gap not flagged; English question answered in Hinglish",llm-judge
+haiku-4.5,EN-D01,D01,en,en,devices,yes,True,u300,2,n,,y,Account & Settings > Devices > Remove; 2 per 30 days,llm-judge
+llama4-maverick,EN-D01,D01,en,en,devices,yes,True,u306,2,n,,y,"Correct steps and limit, brief",llm-judge
+nova2-lite,EN-D01,D01,en,en,devices,yes,True,u072,2,n,,n,"Steps and 2-per-30-days limit correct, but English question answered in Hinglish",llm-judge
+haiku-4.5,EN-D02,D02,en,en,devices,partial,True,u075,1,n,n,y,General install and registration steps correct; presented as Samsung steps without saying they are generic,llm-judge
+llama4-maverick,EN-D02,D02,en,en,devices,partial,True,u130,1,n,n,y,General install steps correct; no note that nothing is Samsung-specific,llm-judge
+nova2-lite,EN-D02,D02,en,en,devices,partial,True,u403,1,n,n,y,General install steps correct; no note that nothing is Samsung-specific,llm-judge
+haiku-4.5,EN-D03,D03,en,en,devices,yes,True,u396,2,n,,y,Force Stop steps; says it has nothing further,llm-judge
+llama4-maverick,EN-D03,D03,en,en,devices,yes,True,u122,2,n,,y,Settings > Prime Video > Force Stop,llm-judge
+nova2-lite,EN-D03,D03,en,en,devices,yes,True,u401,2,n,,n,"Force Stop steps correct, but English question answered in Hinglish",llm-judge
+haiku-4.5,EN-DL01,DL01,en,en,downloads,partial,True,u057,1,n,y,y,Gives per-title device limits and says it has no total number; doesn't mention that a limit exists and varies by location,llm-judge
+llama4-maverick,EN-DL01,DL01,en,en,downloads,partial,True,u290,2,n,y,y,States a maximum exists and varies by location; adds device limits; no invented number,llm-judge
+nova2-lite,EN-DL01,DL01,en,en,downloads,partial,True,u421,1,n,n,n,Answers with the two-devices-per-title rule as if it were the limit; English question answered in Hinglish,llm-judge
+haiku-4.5,EN-DL02,DL02,en,en,downloads,yes,True,u272,2,n,,y,30 days / 48 hours; also covers rentals,llm-judge
+llama4-maverick,EN-DL02,DL02,en,en,downloads,yes,True,u140,2,n,,y,"30 days to start, 48 hours to finish",llm-judge
+nova2-lite,EN-DL02,DL02,en,en,downloads,yes,True,u271,2,n,,y,"30 days, then 48 hours once started",llm-judge
+haiku-4.5,EN-DL03,DL03,en,en,downloads,yes,True,u073,2,n,,y,"Yes, via the Prime Video app on Windows; download steps",llm-judge
+llama4-maverick,EN-DL03,DL03,en,en,downloads,yes,True,u399,2,n,,y,Yes on Windows 10/11 with the app; download steps,llm-judge
+nova2-lite,EN-DL03,DL03,en,en,downloads,yes,True,u203,2,n,,n,"Correct (Windows app, download before flight) but English question answered in Hinglish",llm-judge
+haiku-4.5,EN-C01,C01,en,en,channels,yes,True,u016,2,n,,y,"Cancel steps, end date, Apple 24-hour rule",llm-judge
+llama4-maverick,EN-C01,C01,en,en,channels,yes,True,u104,2,n,,y,"Cancel steps, reversal window, Apple rule",llm-judge
+nova2-lite,EN-C01,C01,en,en,channels,yes,True,u194,2,n,,y,"Cancel steps, withdraw wording, end date, Apple rule",llm-judge
+haiku-4.5,EN-C02,C02,en,en,channels,no,,u297,1,y,y,y,"States channels 'can include free trials' (not supported), then says it lacks specifics and points to support",llm-judge
+llama4-maverick,EN-C02,C02,en,en,channels,no,,u269,0,y,n,y,Infers from the Unknown Charges excerpt that add-ons 'may offer a free trial'; the excerpt doesn't say that,llm-judge
+nova2-lite,EN-C02,C02,en,en,channels,no,,u408,0,y,n,y,States channels typically have no free trial and charge right away; nothing in the excerpts says so,llm-judge
+haiku-4.5,EN-PC01,PC01,en,en,parental_profiles,yes,True,u409,2,n,,y,"Complete and concise, both platforms, Fire TV note",llm-judge
+llama4-maverick,EN-PC01,PC01,en,en,parental_profiles,yes,True,u183,2,n,,y,Correct merged Android/iOS PIN steps plus Parental Controls; all supported,llm-judge
+nova2-lite,EN-PC01,PC01,en,en,parental_profiles,yes,True,u212,2,n,,y,"Complete Android and iOS steps, Fire TV note; mentions ""excerpts"" (prompt rule 6 breach, not scored)",llm-judge
+haiku-4.5,EN-PC02,PC02,en,en,parental_profiles,yes,True,u312,2,y,,y,"Correct steps for three platforms; ""set it up as Kids during this process"" is not in the excerpts (minor)",llm-judge
+llama4-maverick,EN-PC02,PC02,en,en,parental_profiles,yes,True,u219,2,n,,y,"Website and app creation steps, Kids profile type and limit; app step is loose (""New or Edit profile"")",llm-judge
+nova2-lite,EN-PC02,PC02,en,en,parental_profiles,yes,True,u371,2,y,,y,"Correct creation steps; invents ""edit the profile afterwards to make it a Kids profile""",llm-judge
+haiku-4.5,EN-A01,A01,en,en,account_access,partial,True,u381,2,n,y,y,Supported steps and says it has no information on why the code fails; reads it as an error code,llm-judge
+llama4-maverick,EN-A01,A01,en,en,account_access,partial,True,u395,2,n,y,y,Supported steps; says plainly it has no information on why the code isn't working,llm-judge
+nova2-lite,EN-A01,A01,en,en,account_access,partial,True,u041,1,n,n,n,Supported sign-in steps but no flag that the rejected code isn't covered; English question answered in Hinglish,llm-judge
+haiku-4.5,EN-A02,A02,en,en,account_access,yes,True,u058,2,n,,y,"All three points, clearly put",llm-judge
+llama4-maverick,EN-A02,A02,en,en,account_access,yes,True,u003,2,n,,y,"Selected titles stream, catalogue may differ, download before travel; concise",llm-judge
+nova2-lite,EN-A02,A02,en,en,account_access,yes,True,u206,2,y,,y,All three points; adds unsupported device examples (Fire TV for downloads) and a licensing explanation,llm-judge
+haiku-4.5,EN-U01,U01,en,en,playback,no,,u398,1,y,y,y,"Declines and refers to support, but suggests the detail page may show release information (unsupported)",llm-judge
+llama4-maverick,EN-U01,U01,en,en,playback,no,,u294,2,n,y,y,"Clear ""don't have that"", refers to support",llm-judge
+nova2-lite,EN-U01,U01,en,en,playback,no,,u414,2,n,y,y,"Clear decline and support referral; mentions ""help-center excerpts"" (rule 6 breach, not scored)",llm-judge
+haiku-4.5,EN-U03,U03,en,en,billing,no,,u273,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,EN-U03,U03,en,en,billing,no,,u088,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,EN-U03,U03,en,en,billing,no,,u258,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,EN-U04,U04,en,en,devices,no,,u090,2,n,y,y,Clear decline; suggests support or the telecom provider; generic closing line,llm-judge
+llama4-maverick,EN-U04,U04,en,en,devices,no,,u236,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,EN-U04,U04,en,en,devices,no,,u039,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,EN-U06,U06,en,en,account_access,no,,u166,2,n,y,y,"Clear decline, routes to support for account lookup",llm-judge
+llama4-maverick,EN-U06,U06,en,en,account_access,no,,u260,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,EN-U06,U06,en,en,account_access,no,,u074,2,n,y,y,"Clear decline and support referral; mentions ""help-center excerpts"" (rule 6 breach, not scored)",llm-judge
+haiku-4.5,EN-U07,U07,en,en,playback,no,,u320,2,n,y,n,Clear decline and referral; English question answered in Hindi,llm-judge
+llama4-maverick,EN-U07,U07,en,en,playback,no,,u110,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,EN-U07,U07,en,en,playback,no,,u289,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,EN-DL04,DL04,en,en,downloads,partial,True,u034,1,n,n,y,"Practical advice right (delete, re-download) but states 'cannot move' as fact and applies the one-device Mobile Edition rule to everyone",llm-judge
+llama4-maverick,EN-DL04,DL04,en,en,downloads,partial,True,u233,1,n,n,y,Accurate on both device rules and re-downloading; states 'can't transfer' as fact rather than saying the articles don't cover it,llm-judge
+nova2-lite,EN-DL04,DL04,en,en,downloads,partial,True,u187,1,n,n,n,"Replied in German to an English question; delete-and-re-download advice is roughly right, 'one title per device' is not",llm-judge
+haiku-4.5,EN-U09,U09,en,en,billing,no,,u336,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,EN-U09,U09,en,en,billing,no,,u316,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,EN-U09,U09,en,en,billing,no,,u128,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,EN-U10,U10,en,en,parental_profiles,no,,u339,1,y,y,y,"Declines and refers to support, but speculates the device may have a watch-history setting",llm-judge
+llama4-maverick,EN-U10,U10,en,en,parental_profiles,no,,u346,1,n,y,y,"Says it lacks watch-history information, but opens by implying profile management answers the question",llm-judge
+nova2-lite,EN-U10,U10,en,en,parental_profiles,no,,u081,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-B01,B01,hi,en,billing,yes,True,u092,2,n,,y,All causes; PIN tip; says to contact support if none fit,llm-judge
+llama4-maverick,HI-B01,B01,hi,en,billing,yes,True,u348,2,n,,y,"All three causes, Account & Settings",llm-judge
+nova2-lite,HI-B01,B01,hi,en,billing,yes,True,u218,2,n,,y,All causes with billing-date detail,llm-judge
+haiku-4.5,HI-B01,B01,hi,hi,billing,yes,False,u388,1,n,,y,"Search missed; says it lacks details, suggests checking subscriptions and support",llm-judge
+llama4-maverick,HI-B01,B01,hi,hi,billing,yes,False,u137,1,n,,y,"Search missed; only points to the Unknown Charges page by name, gives no causes",llm-judge
+nova2-lite,HI-B01,B01,hi,hi,billing,yes,False,u393,1,y,,y,"Search missed; guesses an accidental add-on or rental as the cause, not in excerpts",llm-judge
+haiku-4.5,HI-B01,B01,hi,both,billing,yes,True,u253,2,n,,y,All three causes; PIN tip; support fallback,llm-judge
+llama4-maverick,HI-B01,B01,hi,both,billing,yes,True,u013,2,n,,y,All causes incl. different billing dates,llm-judge
+nova2-lite,HI-B01,B01,hi,both,billing,yes,True,u028,2,n,,y,All causes; points to the right help sections,llm-judge
+haiku-4.5,HI-B02,B02,hi,en,billing,yes,True,u313,2,n,,y,"Card details, bank (e-commerce, balance), other method",llm-judge
+llama4-maverick,HI-B02,B02,hi,en,billing,yes,True,u276,2,n,,y,"Card details, Apple settings, bank, other method",llm-judge
+nova2-lite,HI-B02,B02,hi,en,billing,yes,True,u338,2,n,,y,All article steps incl. Your Orders prompt,llm-judge
+haiku-4.5,HI-B02,B02,hi,hi,billing,yes,True,u244,1,n,,y,"Has only the Netherlands/verification excerpt; says info is limited, suggests bank and support",llm-judge
+llama4-maverick,HI-B02,B02,hi,hi,billing,yes,True,u319,1,n,,y,Repeats bank-verification note and points to payment help pages; no fix steps,llm-judge
+nova2-lite,HI-B02,B02,hi,hi,billing,yes,True,u157,1,y,,y,"Only the verification excerpt available; adds 'try another device', not in excerpts",llm-judge
+haiku-4.5,HI-B02,B02,hi,both,billing,yes,False,u362,0,n,,y,"Search missed; says it only has playback info, points to support",llm-judge
+llama4-maverick,HI-B02,B02,hi,both,billing,yes,False,u202,0,n,,y,Search missed; declines and points to support,llm-judge
+nova2-lite,HI-B02,B02,hi,both,billing,yes,False,u113,0,n,,y,Search returned playback article; declines and points to support,llm-judge
+haiku-4.5,HI-B03,B03,hi,en,billing,yes,True,u038,2,n,,y,One device; suggests Amazon Prime for 5 devices (in excerpt),llm-judge
+llama4-maverick,HI-B03,B03,hi,en,billing,yes,True,u161,2,n,,y,One device; third-party plans one or two,llm-judge
+nova2-lite,HI-B03,B03,hi,en,billing,yes,True,u163,2,n,,y,One device; third-party plans one or two,llm-judge
+haiku-4.5,HI-B03,B03,hi,hi,billing,yes,True,u366,2,y,,y,"Right answer, but applies the Mobile Edition one-device rule to Prime Lite",llm-judge
+llama4-maverick,HI-B03,B03,hi,hi,billing,yes,True,u098,1,n,,y,"Vague; mentions upgrade and limits vary, no direct answer",llm-judge
+nova2-lite,HI-B03,B03,hi,hi,billing,yes,True,u277,2,y,,y,"Right answer, but takes the one-device rule from the Mobile Edition excerpt, not Prime Lite",llm-judge
+haiku-4.5,HI-B03,B03,hi,both,billing,yes,True,u415,1,n,,y,"Key excerpt not retrieved; says it lacks the device count, gives upgrade options",llm-judge
+llama4-maverick,HI-B03,B03,hi,both,billing,yes,True,u106,1,n,,y,Key excerpt not retrieved; gives upgrade and device-removal info but never answers yes/no,llm-judge
+nova2-lite,HI-B03,B03,hi,both,billing,yes,True,u356,2,y,,y,"Right answer (one device, upgrade link) but the one-device limit is not in the excerpts it was given",llm-judge
+haiku-4.5,HI-B04,B04,hi,en,billing,yes,True,u066,2,n,,y,Gives the upgrade link; says it lacks further detail,llm-judge
+llama4-maverick,HI-B04,B04,hi,en,billing,yes,True,u358,2,n,,y,Upgrade link plus TV app install,llm-judge
+nova2-lite,HI-B04,B04,hi,en,billing,yes,True,u145,1,n,,y,"Gives the upgrade link but also suggests removing a device to watch on TV, which doesn't apply to Mobile Edition",llm-judge
+haiku-4.5,HI-B04,B04,hi,hi,billing,yes,True,u278,2,n,,y,"Upgrade link, brief",llm-judge
+llama4-maverick,HI-B04,B04,hi,hi,billing,yes,True,u159,2,n,,y,"Upgrade link, brief",llm-judge
+nova2-lite,HI-B04,B04,hi,hi,billing,yes,True,u170,2,n,,y,Upgrade link plus TV install and registration,llm-judge
+haiku-4.5,HI-B04,B04,hi,both,billing,yes,True,u278,2,n,,y,"Upgrade link, brief",llm-judge
+llama4-maverick,HI-B04,B04,hi,both,billing,yes,True,u037,2,n,,y,"Upgrade link, brief",llm-judge
+nova2-lite,HI-B04,B04,hi,both,billing,yes,True,u001,2,n,,y,Upgrade link; generic 'follow instructions',llm-judge
+haiku-4.5,HI-P01,P01,hi,en,playback,yes,True,u301,2,n,,y,All three fixes,llm-judge
+llama4-maverick,HI-P01,P01,hi,en,playback,yes,True,u109,2,n,,y,All three fixes,llm-judge
+nova2-lite,HI-P01,P01,hi,en,playback,yes,True,u084,2,n,,y,All three fixes,llm-judge
+haiku-4.5,HI-P01,P01,hi,hi,playback,yes,True,u118,2,n,,y,All three fixes plus restart steps from excerpt,llm-judge
+llama4-maverick,HI-P01,P01,hi,hi,playback,yes,True,u031,2,n,,y,All three fixes,llm-judge
+nova2-lite,HI-P01,P01,hi,hi,playback,yes,True,u235,2,n,,y,All three fixes,llm-judge
+haiku-4.5,HI-P01,P01,hi,both,playback,yes,True,u372,2,n,,y,All three fixes,llm-judge
+llama4-maverick,HI-P01,P01,hi,both,playback,yes,True,u332,2,n,,y,All three fixes,llm-judge
+nova2-lite,HI-P01,P01,hi,both,playback,yes,True,u042,2,n,,y,All three fixes in full,llm-judge
+haiku-4.5,HI-P02,P02,hi,en,playback,yes,True,u117,2,n,,y,All payment fixes,llm-judge
+llama4-maverick,HI-P02,P02,hi,en,playback,yes,True,u284,2,n,,y,"Update payment method, check details, bank, other method",llm-judge
+nova2-lite,HI-P02,P02,hi,en,playback,yes,True,u022,2,n,,y,All payment fixes,llm-judge
+haiku-4.5,HI-P02,P02,hi,hi,playback,yes,True,u382,2,n,,y,All payment fixes,llm-judge
+llama4-maverick,HI-P02,P02,hi,hi,playback,yes,True,u416,2,n,,y,"Check and update payment details, other method, bank",llm-judge
+nova2-lite,HI-P02,P02,hi,hi,playback,yes,True,u287,2,n,,y,All payment fixes,llm-judge
+haiku-4.5,HI-P02,P02,hi,both,playback,yes,True,u222,2,n,,y,"Payment details, update method, funds, bank, other method",llm-judge
+llama4-maverick,HI-P02,P02,hi,both,playback,yes,True,u179,2,n,,y,Check details and update payment method; brief,llm-judge
+nova2-lite,HI-P02,P02,hi,both,playback,yes,True,u108,2,n,,y,"Check and update payment details, Your Orders, other method",llm-judge
+haiku-4.5,HI-P03,P03,hi,en,playback,yes,True,u208,2,n,,y,"Restart router and device, pause other devices, update, reinstall",llm-judge
+llama4-maverick,HI-P03,P03,hi,en,playback,yes,True,u139,2,n,,y,"Restart, pause other activity, update, HDMI check",llm-judge
+nova2-lite,HI-P03,P03,hi,en,playback,yes,True,u025,2,n,,y,"Router/device restart, pause other activity, update, VPN, reinstall",llm-judge
+haiku-4.5,HI-P03,P03,hi,hi,playback,yes,True,u397,1,n,,y,"Says it lacks a direct answer; offers reinstall, points to support",llm-judge
+llama4-maverick,HI-P03,P03,hi,hi,playback,yes,True,u201,1,n,,y,Reinstall and internet-help pointer; says it has nothing on blurry picture,llm-judge
+nova2-lite,HI-P03,P03,hi,hi,playback,yes,True,u210,1,n,,y,"Restart, reinstall, factory reset; main steps missing from excerpts",llm-judge
+haiku-4.5,HI-P03,P03,hi,both,playback,yes,True,u195,1,n,,y,Only tail of article retrieved; reinstall and factory reset only,llm-judge
+llama4-maverick,HI-P03,P03,hi,both,playback,yes,True,u370,1,n,,y,"Only tail of article retrieved; reinstall, pointer to internet help",llm-judge
+nova2-lite,HI-P03,P03,hi,both,playback,yes,True,u033,1,n,,y,"Only the tail of the article was retrieved; gives reinstall and factory reset, misses the main steps",llm-judge
+haiku-4.5,HI-P04,P04,hi,en,playback,partial,True,u135,1,n,n,y,Freezing steps correct; delay not addressed,llm-judge
+llama4-maverick,HI-P04,P04,hi,en,playback,partial,True,u005,1,n,n,y,Freezing steps correct; delay not addressed; one word half in Latin script,llm-judge
+nova2-lite,HI-P04,P04,hi,en,playback,partial,True,u314,1,n,n,y,"Device, speed, motion setting; delay not addressed",llm-judge
+haiku-4.5,HI-P04,P04,hi,hi,playback,partial,True,u014,1,n,n,y,"Speed, restart, updates, motion setting; delay not addressed",llm-judge
+llama4-maverick,HI-P04,P04,hi,hi,playback,partial,True,u377,1,n,n,y,"Device, speed, motion setting; delay not addressed",llm-judge
+nova2-lite,HI-P04,P04,hi,hi,playback,partial,True,u184,1,n,n,y,"Motion setting, device, speed; delay not addressed",llm-judge
+haiku-4.5,HI-P04,P04,hi,both,playback,partial,True,u186,1,n,n,y,"Speed, motion setting, restart; delay not addressed",llm-judge
+llama4-maverick,HI-P04,P04,hi,both,playback,partial,True,u175,1,n,n,y,"Device, speed, motion setting; delay not addressed",llm-judge
+nova2-lite,HI-P04,P04,hi,both,playback,partial,True,u337,1,n,n,y,"Device, speed, motion setting, restart; delay not addressed",llm-judge
+haiku-4.5,HI-D01,D01,hi,en,devices,yes,True,u152,2,n,,y,Correct steps and limit,llm-judge
+llama4-maverick,HI-D01,D01,hi,en,devices,yes,True,u197,2,n,,y,"Correct steps and limit, brief",llm-judge
+nova2-lite,HI-D01,D01,hi,en,devices,yes,True,u286,2,n,,y,Correct steps and limit; a few Korean characters appear inside one Hindi word,llm-judge
+haiku-4.5,HI-D01,D01,hi,hi,devices,yes,True,u059,2,n,,y,Correct steps and limit,llm-judge
+llama4-maverick,HI-D01,D01,hi,hi,devices,yes,True,u302,2,n,,y,Correct steps and limit; mentions upgrade,llm-judge
+nova2-lite,HI-D01,D01,hi,hi,devices,yes,True,u230,2,n,,y,Correct steps and limit; mentions upgrade,llm-judge
+haiku-4.5,HI-D01,D01,hi,both,devices,yes,True,u059,2,n,,y,Correct steps and limit,llm-judge
+llama4-maverick,HI-D01,D01,hi,both,devices,yes,True,u302,2,n,,y,Correct steps and limit; mentions upgrade,llm-judge
+nova2-lite,HI-D01,D01,hi,both,devices,yes,True,u353,2,n,,y,Correct steps and limit; mentions upgrade,llm-judge
+haiku-4.5,HI-D03,D03,hi,en,devices,yes,True,u417,2,n,,y,Force Stop steps,llm-judge
+llama4-maverick,HI-D03,D03,hi,en,devices,yes,True,u334,2,n,,y,"Force Stop steps, bare list",llm-judge
+nova2-lite,HI-D03,D03,hi,en,devices,yes,True,u192,2,n,,y,Force Stop steps,llm-judge
+haiku-4.5,HI-D03,D03,hi,hi,devices,yes,True,u199,2,n,,y,Force Stop steps; reinstall as next step (in excerpt),llm-judge
+llama4-maverick,HI-D03,D03,hi,hi,devices,yes,True,u007,2,n,,y,Force Stop steps,llm-judge
+nova2-lite,HI-D03,D03,hi,hi,devices,yes,True,u418,2,n,,y,Force Stop steps; reinstall as next step (in excerpt),llm-judge
+haiku-4.5,HI-D03,D03,hi,both,devices,yes,True,u241,2,n,,y,Force Stop steps,llm-judge
+llama4-maverick,HI-D03,D03,hi,both,devices,yes,True,u375,2,n,,y,"Force Stop steps, one line",llm-judge
+nova2-lite,HI-D03,D03,hi,both,devices,yes,True,u049,2,n,,y,Force Stop steps,llm-judge
+haiku-4.5,HI-DL01,DL01,hi,en,downloads,partial,True,u019,1,n,n,y,Gives two-devices-per-title rule only; doesn't say the total limit is unspecified,llm-judge
+llama4-maverick,HI-DL01,DL01,hi,en,downloads,partial,True,u169,2,n,y,y,States a maximum exists and varies by location; adds two-device rule,llm-judge
+nova2-lite,HI-DL01,DL01,hi,en,downloads,partial,True,u050,1,n,n,y,Two-devices rule only; total limit not addressed,llm-judge
+haiku-4.5,HI-DL01,DL01,hi,hi,downloads,partial,True,u374,1,n,y,y,Says it lacks the total; device rules mix Mobile Edition and rental; misses that a limit exists and varies,llm-judge
+llama4-maverick,HI-DL01,DL01,hi,hi,downloads,partial,True,u029,1,n,y,y,"Says maximum varies by country, but states the Mobile Edition one-device rule as general",llm-judge
+nova2-lite,HI-DL01,DL01,hi,hi,downloads,partial,True,u249,1,n,y,y,Says maximum varies by country; first sentence garbles the Mobile Edition rule,llm-judge
+haiku-4.5,HI-DL01,DL01,hi,both,downloads,partial,True,u261,1,n,n,y,Two-devices-per-title rule only; total limit not addressed,llm-judge
+llama4-maverick,HI-DL01,DL01,hi,both,downloads,partial,True,u120,2,n,y,y,Says the maximum depends on location and other factors; points to support,llm-judge
+nova2-lite,HI-DL01,DL01,hi,both,downloads,partial,True,u023,1,n,n,y,Two-devices rule only; total limit not addressed,llm-judge
+haiku-4.5,HI-DL02,DL02,hi,en,downloads,yes,True,u422,2,n,,y,30 days / 48 hours; subscription-lapse note,llm-judge
+llama4-maverick,HI-DL02,DL02,hi,en,downloads,yes,True,u032,2,n,,y,"30 days to start, 48 hours to finish; subscription-lapse note",llm-judge
+nova2-lite,HI-DL02,DL02,hi,en,downloads,yes,True,u010,2,n,,y,"30 days to start, 48 hours to finish",llm-judge
+haiku-4.5,HI-DL02,DL02,hi,hi,downloads,yes,True,u340,2,n,,y,30 days / 48 hours,llm-judge
+llama4-maverick,HI-DL02,DL02,hi,hi,downloads,yes,True,u327,2,n,,y,"30 days / 48 hours, one sentence",llm-judge
+nova2-lite,HI-DL02,DL02,hi,hi,downloads,yes,True,u156,2,n,,y,30 days / 48 hours with example,llm-judge
+haiku-4.5,HI-DL02,DL02,hi,both,downloads,yes,True,u254,2,n,,y,"30 days / 48 hours, clear",llm-judge
+llama4-maverick,HI-DL02,DL02,hi,both,downloads,yes,True,u323,2,n,,y,"30 days / 48 hours, one sentence",llm-judge
+nova2-lite,HI-DL02,DL02,hi,both,downloads,yes,True,u352,2,n,,y,30 days / 48 hours with example,llm-judge
+haiku-4.5,HI-DL03,DL03,hi,en,downloads,yes,True,u231,2,n,,y,Yes on Windows 10/11; steps; two-device note,llm-judge
+llama4-maverick,HI-DL03,DL03,hi,en,downloads,yes,True,u107,2,n,,y,Yes on Windows 10/11; suggests checking compatibility,llm-judge
+nova2-lite,HI-DL03,DL03,hi,en,downloads,yes,True,u251,2,n,,y,Yes with the app on macOS/Windows; steps; two-device note,llm-judge
+haiku-4.5,HI-DL03,DL03,hi,hi,downloads,yes,False,u264,0,n,,y,"Search missed; says it has no information on laptops, lists tablet/phone devices",llm-judge
+llama4-maverick,HI-DL03,DL03,hi,hi,downloads,yes,False,u365,1,y,,y,"Search missed; hedged yes, names Windows/macOS as compatible though the excerpts don't",llm-judge
+nova2-lite,HI-DL03,DL03,hi,hi,downloads,yes,False,u257,0,y,,y,"Search missed; says laptops aren't supported and suggests transferring files from another device, which is invented",llm-judge
+haiku-4.5,HI-DL03,DL03,hi,both,downloads,yes,True,u026,2,n,,y,Yes on Windows 10/11 app; download steps,llm-judge
+llama4-maverick,HI-DL03,DL03,hi,both,downloads,yes,True,u387,2,n,,y,Yes on Windows 10/11 with the app; brief,llm-judge
+nova2-lite,HI-DL03,DL03,hi,both,downloads,yes,True,u237,2,n,,y,Yes on macOS or Windows 10/11; download steps,llm-judge
+haiku-4.5,HI-C01,C01,hi,en,channels,yes,True,u071,2,n,,y,"Cancel steps, Apple rule",llm-judge
+llama4-maverick,HI-C01,C01,hi,en,channels,yes,True,u247,2,n,,y,Cancel steps and end-date note; Apple rule omitted,llm-judge
+nova2-lite,HI-C01,C01,hi,en,channels,yes,True,u069,2,n,,y,Full cancel steps and notes,llm-judge
+haiku-4.5,HI-C01,C01,hi,hi,channels,yes,True,u127,2,n,,y,"Cancel steps, end date, Apple rule",llm-judge
+llama4-maverick,HI-C01,C01,hi,hi,channels,yes,True,u280,2,n,,y,"Cancel steps, Apple rule, brief",llm-judge
+nova2-lite,HI-C01,C01,hi,hi,channels,yes,True,u281,2,n,,y,Full cancel steps and notes,llm-judge
+haiku-4.5,HI-C01,C01,hi,both,channels,yes,True,u160,2,n,,y,"Cancel steps, end date, Apple rule",llm-judge
+llama4-maverick,HI-C01,C01,hi,both,channels,yes,True,u150,2,n,,y,"Cancel steps, reversal, Apple rule",llm-judge
+nova2-lite,HI-C01,C01,hi,both,channels,yes,True,u350,2,n,,y,Full cancel steps and notes,llm-judge
+haiku-4.5,HI-C02,C02,hi,en,channels,no,,u100,2,n,y,y,Says it has no free-trial information; points to support,llm-judge
+llama4-maverick,HI-C02,C02,hi,en,channels,no,,u410,2,n,y,y,Says the information isn't available; points to support,llm-judge
+nova2-lite,HI-C02,C02,hi,en,channels,no,,u349,0,y,n,y,Explains that some channels offer trials and others charge at once; none of it is in the excerpts,llm-judge
+haiku-4.5,HI-C02,C02,hi,hi,channels,no,,u216,2,n,y,y,Says it has no free-trial information; points to support,llm-judge
+llama4-maverick,HI-C02,C02,hi,hi,channels,no,,u404,1,n,y,y,Doesn't answer; sends the customer to their 'subscription provider' on the basis of an unrelated excerpt,llm-judge
+nova2-lite,HI-C02,C02,hi,hi,channels,no,,u363,1,n,y,y,Says no clear information; adds an off-topic note on external providers,llm-judge
+haiku-4.5,HI-C02,C02,hi,both,channels,no,,u216,2,n,y,y,Says it has no free-trial information; points to support,llm-judge
+llama4-maverick,HI-C02,C02,hi,both,channels,no,,u404,1,n,y,y,Doesn't answer; sends the customer to their 'subscription provider' on the basis of an unrelated excerpt,llm-judge
+nova2-lite,HI-C02,C02,hi,both,channels,no,,u363,1,n,y,y,Says no clear information; adds an off-topic note on external providers,llm-judge
+haiku-4.5,HI-PC01,PC01,hi,en,parental_profiles,yes,True,u234,2,n,,y,"Complete Android and iOS steps, notes restrictions need switching on",llm-judge
+llama4-maverick,HI-PC01,PC01,hi,en,parental_profiles,yes,True,u357,2,n,,y,Correct generic steps; says steps may differ by device,llm-judge
+nova2-lite,HI-PC01,PC01,hi,en,parental_profiles,yes,True,u200,2,y,,y,"Correct Android steps; adds an unsupported ""tap Enable"" control (minor)",llm-judge
+haiku-4.5,HI-PC01,PC01,hi,hi,parental_profiles,yes,True,u367,2,n,,y,"Correct steps, notes PIN alone does not switch on restrictions",llm-judge
+llama4-maverick,HI-PC01,PC01,hi,hi,parental_profiles,yes,True,u317,2,n,,y,Correct Android steps; does not say which restriction blocks viewing (minor),llm-judge
+nova2-lite,HI-PC01,PC01,hi,hi,parental_profiles,yes,True,u078,2,n,,y,"Correct Android steps from Hindi article, restriction scope noted",llm-judge
+haiku-4.5,HI-PC01,PC01,hi,both,parental_profiles,yes,True,u067,2,y,,y,Correct Android steps; adds unsupported advice to repeat steps on each device (minor),llm-judge
+llama4-maverick,HI-PC01,PC01,hi,both,parental_profiles,yes,True,u412,2,n,,y,"Correct Android steps, both restriction types named",llm-judge
+nova2-lite,HI-PC01,PC01,hi,both,parental_profiles,yes,True,u347,2,y,,y,Android steps correct; iOS and web procedures not in its excerpts (web path via Amazon.com invented),llm-judge
+haiku-4.5,HI-PC02,PC02,hi,en,parental_profiles,yes,True,u112,2,n,,y,"Correct steps for website, mobile, TV; limit stated",llm-judge
+llama4-maverick,HI-PC02,PC02,hi,en,parental_profiles,yes,True,u021,2,y,,y,Correct app and website steps; claims profile can be set to Kids after creation (unsupported),llm-judge
+nova2-lite,HI-PC02,PC02,hi,en,parental_profiles,yes,True,u310,2,n,,y,Website and mobile steps correct; connected-device part only covers editing,llm-judge
+haiku-4.5,HI-PC02,PC02,hi,hi,parental_profiles,yes,True,u089,2,n,,y,Correct mobile steps and 6-profile limit; refers other devices to support,llm-judge
+llama4-maverick,HI-PC02,PC02,hi,hi,parental_profiles,yes,True,u400,2,n,,y,"Correct mobile steps in one paragraph, limit stated",llm-judge
+nova2-lite,HI-PC02,PC02,hi,hi,parental_profiles,yes,True,u243,2,y,,y,"Correct mobile steps; invents a ""बच्चे"" option to select during creation",llm-judge
+haiku-4.5,HI-PC02,PC02,hi,both,parental_profiles,yes,True,u089,2,n,,y,Correct mobile steps and 6-profile limit; refers other devices to support,llm-judge
+llama4-maverick,HI-PC02,PC02,hi,both,parental_profiles,yes,True,u105,2,n,,y,"Correct mobile steps, points to Kids profiles article",llm-judge
+nova2-lite,HI-PC02,PC02,hi,both,parental_profiles,yes,True,u243,2,y,,y,"Correct mobile steps; invents a ""बच्चे"" option to select during creation",llm-judge
+haiku-4.5,HI-A01,A01,hi,en,account_access,partial,True,u131,2,n,y,y,Supported steps and says it has no detail on the code; refers to support,llm-judge
+llama4-maverick,HI-A01,A01,hi,en,account_access,partial,True,u102,2,n,y,y,Supported steps; says other codes aren't covered and refers to support; treats the sign-in code as an error code,llm-judge
+nova2-lite,HI-A01,A01,hi,en,account_access,partial,True,u413,1,n,n,y,"Supported steps, no gap flag",llm-judge
+haiku-4.5,HI-A01,A01,hi,hi,account_access,partial,True,u380,1,n,n,y,"Supported sign-in and device steps, no gap flag",llm-judge
+llama4-maverick,HI-A01,A01,hi,hi,account_access,partial,True,u151,1,n,n,y,"Near-verbatim excerpt steps, no gap flag",llm-judge
+nova2-lite,HI-A01,A01,hi,hi,account_access,partial,True,u055,1,n,n,y,"Supported steps, no gap flag",llm-judge
+haiku-4.5,HI-A01,A01,hi,both,account_access,partial,True,u380,1,n,n,y,"Supported sign-in and device steps, no gap flag",llm-judge
+llama4-maverick,HI-A01,A01,hi,both,account_access,partial,True,u035,1,n,n,y,"Supported steps, no gap flag",llm-judge
+nova2-lite,HI-A01,A01,hi,both,account_access,partial,True,u238,1,n,n,y,"Supported steps, no gap flag",llm-judge
+haiku-4.5,HI-A02,A02,hi,en,account_access,yes,True,u213,2,n,,y,All three points plus supported 30-day/48-hour download window; mixes English words into Hindi,llm-judge
+llama4-maverick,HI-A02,A02,hi,en,account_access,yes,True,u335,2,n,,y,"Works with different catalogue, download before travel; omits ""selected titles"" wording (minor)",llm-judge
+nova2-lite,HI-A02,A02,hi,en,account_access,yes,True,u148,2,n,,y,"All three points; adds the EU note, which does not apply to this customer",llm-judge
+haiku-4.5,HI-A02,A02,hi,hi,account_access,yes,True,u299,2,n,,y,All three points plus supported download window,llm-judge
+llama4-maverick,HI-A02,A02,hi,hi,account_access,yes,True,u330,2,n,,y,"All three points, somewhat repetitive",llm-judge
+nova2-lite,HI-A02,A02,hi,hi,account_access,yes,True,u242,2,n,,y,All three points; masculine forms for a female customer,llm-judge
+haiku-4.5,HI-A02,A02,hi,both,account_access,yes,True,u205,2,n,,y,All three points plus supported download window,llm-judge
+llama4-maverick,HI-A02,A02,hi,both,account_access,yes,True,u262,2,n,,y,"All three points, concise, matches customer's gender",llm-judge
+nova2-lite,HI-A02,A02,hi,both,account_access,yes,True,u045,2,n,,y,All three points; correctly says the EU rule does not apply; masculine forms for a female customer,llm-judge
+haiku-4.5,HI-U01,U01,hi,en,playback,no,,u341,1,y,y,y,"Declines and refers to support, but suggests the series page may show release information (unsupported)",llm-judge
+llama4-maverick,HI-U01,U01,hi,en,playback,no,,u298,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U01,U01,hi,en,playback,no,,u091,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U01,U01,hi,hi,playback,no,,u167,1,y,y,y,"Declines, then invents a ""wishlist"" notification feature",llm-judge
+llama4-maverick,HI-U01,U01,hi,hi,playback,no,,u147,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U01,U01,hi,hi,playback,no,,u097,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U01,U01,hi,both,playback,no,,u167,1,y,y,y,"Declines, then invents a ""wishlist"" notification feature",llm-judge
+llama4-maverick,HI-U01,U01,hi,both,playback,no,,u147,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U01,U01,hi,both,playback,no,,u097,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U02,U02,hi,en,billing,no,,u324,1,y,y,y,"Declines and refers to support, but says refund details may appear under Account & Settings (unsupported)",llm-judge
+llama4-maverick,HI-U02,U02,hi,en,billing,no,,u136,2,n,y,y,"Clear decline, refers to support; very brief",llm-judge
+nova2-lite,HI-U02,U02,hi,en,billing,no,,u368,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U02,U02,hi,hi,billing,no,,u190,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U02,U02,hi,hi,billing,no,,u018,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U02,U02,hi,hi,billing,no,,u149,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U02,U02,hi,both,billing,no,,u324,1,y,y,y,"Declines and refers to support, but says refund details may appear under Account & Settings (unsupported)",llm-judge
+llama4-maverick,HI-U02,U02,hi,both,billing,no,,u141,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U02,U02,hi,both,billing,no,,u391,1,y,y,y,"Declines, then sends customer to Account & Settings to check refund status (unsupported)",llm-judge
+haiku-4.5,HI-U03,U03,hi,en,billing,no,,u252,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U03,U03,hi,en,billing,no,,u407,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U03,U03,hi,en,billing,no,,u265,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U03,U03,hi,hi,billing,no,,u321,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U03,U03,hi,hi,billing,no,,u017,2,n,y,y,"Clear decline, refers to support; very brief",llm-judge
+nova2-lite,HI-U03,U03,hi,hi,billing,no,,u009,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U03,U03,hi,both,billing,no,,u321,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U03,U03,hi,both,billing,no,,u263,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U03,U03,hi,both,billing,no,,u209,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U04,U04,hi,en,devices,no,,u099,2,n,y,y,Clear decline; suggests the provider or Prime Video support,llm-judge
+llama4-maverick,HI-U04,U04,hi,en,devices,no,,u267,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U04,U04,hi,en,devices,no,,u291,1,n,y,y,"Declines and refers to support, but pads with off-topic app-install steps",llm-judge
+haiku-4.5,HI-U04,U04,hi,hi,devices,no,,u158,2,n,y,y,Clear decline plus supported note that Mobile Edition is SD only; the list is worded confusingly,llm-judge
+llama4-maverick,HI-U04,U04,hi,hi,devices,no,,u207,2,n,y,y,"Clear decline plus supported, relevant note on SD-only Mobile Edition",llm-judge
+nova2-lite,HI-U04,U04,hi,hi,devices,no,,u322,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U04,U04,hi,both,devices,no,,u229,2,n,y,y,Clear decline plus supported note on SD-only Mobile Edition; list worded confusingly,llm-judge
+llama4-maverick,HI-U04,U04,hi,both,devices,no,,u369,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U04,U04,hi,both,devices,no,,u322,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U06,U06,hi,en,account_access,no,,u133,2,n,y,y,"Clear decline, routes to support",llm-judge
+llama4-maverick,HI-U06,U06,hi,en,account_access,no,,u132,2,n,y,y,Clear decline and referral; adds a vague pointer to Account & Settings,llm-judge
+nova2-lite,HI-U06,U06,hi,en,account_access,no,,u376,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U06,U06,hi,hi,account_access,no,,u172,2,n,y,y,"Clear decline, routes to support",llm-judge
+llama4-maverick,HI-U06,U06,hi,hi,account_access,no,,u360,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U06,U06,hi,hi,account_access,no,,u275,2,n,y,y,"Clear decline, routes to support",llm-judge
+haiku-4.5,HI-U06,U06,hi,both,account_access,no,,u172,2,n,y,y,"Clear decline, routes to support",llm-judge
+llama4-maverick,HI-U06,U06,hi,both,account_access,no,,u311,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U06,U06,hi,both,account_access,no,,u419,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U07,U07,hi,en,playback,no,,u076,2,n,y,y,"Clear decline, refers to support; offers help with technical issues",llm-judge
+llama4-maverick,HI-U07,U07,hi,en,playback,no,,u344,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U07,U07,hi,en,playback,no,,u051,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U07,U07,hi,hi,playback,no,,u282,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U07,U07,hi,hi,playback,no,,u061,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U07,U07,hi,hi,playback,no,,u176,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-U07,U07,hi,both,playback,no,,u282,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U07,U07,hi,both,playback,no,,u389,2,n,y,y,"Clear decline, refers to support; brief",llm-judge
+nova2-lite,HI-U07,U07,hi,both,playback,no,,u176,2,n,y,y,"Clear decline, refers to support",llm-judge
+haiku-4.5,HI-DL04,DL04,hi,en,downloads,partial,True,u111,2,n,y,y,Says it has no information on transferring; gives the two-device and delete-first rule,llm-judge
+llama4-maverick,HI-DL04,DL04,hi,en,downloads,partial,True,u296,1,n,n,y,Says no and to re-download; doesn't mention the two-device rule or that transfer isn't covered,llm-judge
+nova2-lite,HI-DL04,DL04,hi,en,downloads,partial,True,u224,1,n,n,y,Says you can 'transfer' by deleting everything and re-downloading; over-states what must be deleted,llm-judge
+haiku-4.5,HI-DL04,DL04,hi,hi,downloads,partial,True,u315,0,n,n,y,Applies the rental rule to all downloads and suggests removing the old phone from the account,llm-judge
+llama4-maverick,HI-DL04,DL04,hi,hi,downloads,partial,True,u266,1,n,n,y,"Search returned the rental rule; states it accurately for rentals only, doesn't cover other downloads",llm-judge
+nova2-lite,HI-DL04,DL04,hi,hi,downloads,partial,True,u211,0,n,n,y,"Search returned the rental rule; says the new phone can't download, only stream, which is wrong for subscription titles",llm-judge
+haiku-4.5,HI-DL04,DL04,hi,both,downloads,partial,True,u315,0,n,n,y,Applies the rental rule to all downloads and suggests removing the old phone from the account,llm-judge
+llama4-maverick,HI-DL04,DL04,hi,both,downloads,partial,True,u266,1,n,n,y,"Search returned the rental rule; states it accurately for rentals only, doesn't cover other downloads",llm-judge
+nova2-lite,HI-DL04,DL04,hi,both,downloads,partial,True,u047,0,n,n,y,Search returned the rental rule; advice to 'download on old phone and stream on new' is confused,llm-judge
+haiku-4.5,HI-U09,U09,hi,en,billing,no,,u077,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U09,U09,hi,en,billing,no,,u079,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U09,U09,hi,en,billing,no,,u121,2,n,y,y,"Clear decline, refers to support; brief",llm-judge
+haiku-4.5,HI-U09,U09,hi,hi,billing,no,,u228,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U09,U09,hi,hi,billing,no,,u196,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HI-U09,U09,hi,hi,billing,no,,u329,2,n,y,y,"Clear decline, refers to support; brief",llm-judge
+haiku-4.5,HI-U09,U09,hi,both,billing,no,,u228,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U09,U09,hi,both,billing,no,,u006,2,n,y,y,"Clear decline, refers to support; brief",llm-judge
+nova2-lite,HI-U09,U09,hi,both,billing,no,,u329,2,n,y,y,"Clear decline, refers to support; brief",llm-judge
+haiku-4.5,HI-U10,U10,hi,en,parental_profiles,no,,u221,2,n,y,y,"Clear decline, refers to support; offers supported parental-controls help",llm-judge
+llama4-maverick,HI-U10,U10,hi,en,parental_profiles,no,,u304,1,n,y,y,"Declines and refers to support, but first implies profile management shows what was watched",llm-judge
+nova2-lite,HI-U10,U10,hi,en,parental_profiles,no,,u060,0,y,n,y,"Hedges, then tells the customer to open a ""history"" section that the excerpts do not mention",llm-judge
+haiku-4.5,HI-U10,U10,hi,hi,parental_profiles,no,,u351,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U10,U10,hi,hi,parental_profiles,no,,u087,1,n,y,y,Says the information isn't given but points to help articles instead of support; adds off-topic profile lock,llm-judge
+nova2-lite,HI-U10,U10,hi,hi,parental_profiles,no,,u390,0,y,n,y,"Answers yes and invents ""See all""/""Activity"" sections for viewing history",llm-judge
+haiku-4.5,HI-U10,U10,hi,both,parental_profiles,no,,u154,2,n,y,y,"Clear decline, refers to support",llm-judge
+llama4-maverick,HI-U10,U10,hi,both,parental_profiles,no,,u405,2,n,y,y,Clear decline and referral after a supported summary of profiles,llm-judge
+nova2-lite,HI-U10,U10,hi,both,parental_profiles,no,,u288,0,y,n,y,"Answers yes and invents a ""Your Watch History"" section; contains a stray non-Hindi word",llm-judge
+haiku-4.5,HG-B01,B01,hinglish,en,billing,yes,True,u054,2,n,,y,"All causes, Hinglish",llm-judge
+llama4-maverick,HG-B01,B01,hinglish,en,billing,yes,True,u188,2,n,,y,"Causes covered, Hinglish",llm-judge
+nova2-lite,HG-B01,B01,hinglish,en,billing,yes,True,u056,2,n,,n,Correct but Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-B01,B01,hinglish,hi,billing,yes,False,u303,0,y,,y,Search missed; says customer is in the Netherlands and invents verification charge,llm-judge
+llama4-maverick,HG-B01,B01,hinglish,hi,billing,yes,False,u068,1,n,,n,Search missed; only points to Unknown Charges page; Devanagari reply to Hinglish,llm-judge
+nova2-lite,HG-B01,B01,hinglish,hi,billing,yes,False,u030,0,y,,n,Search missed; invents rental and bank verification fee as causes; Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-B01,B01,hinglish,both,billing,yes,True,u392,2,n,,y,"All causes, Hinglish",llm-judge
+llama4-maverick,HG-B01,B01,hinglish,both,billing,yes,True,u328,2,n,,y,"All causes, Hinglish",llm-judge
+nova2-lite,HG-B01,B01,hinglish,both,billing,yes,True,u333,2,n,,n,Correct and complete but Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-B05,B05,hinglish,en,billing,yes,True,u217,2,n,,y,"UPI in India plus cards, Hinglish",llm-judge
+llama4-maverick,HG-B05,B05,hinglish,en,billing,yes,True,u123,2,n,,y,"UPI in India plus cards, Hinglish",llm-judge
+nova2-lite,HG-B05,B05,hinglish,en,billing,yes,True,u171,2,n,,y,"UPI in India for all payment types, Hinglish",llm-judge
+haiku-4.5,HG-B05,B05,hinglish,hi,billing,yes,True,u116,2,n,,n,Correct but Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-B05,B05,hinglish,hi,billing,yes,True,u043,2,n,,y,"Correct, Hinglish, but country names left in Devanagari and one word in Cyrillic letters",llm-judge
+nova2-lite,HG-B05,B05,hinglish,hi,billing,yes,True,u359,2,n,,n,Correct but Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-B05,B05,hinglish,both,billing,yes,True,u217,2,n,,y,"UPI in India plus cards, Hinglish",llm-judge
+llama4-maverick,HG-B05,B05,hinglish,both,billing,yes,True,u123,2,n,,y,"UPI in India plus cards, Hinglish",llm-judge
+nova2-lite,HG-B05,B05,hinglish,both,billing,yes,True,u171,2,n,,y,"UPI in India for all payment types, Hinglish",llm-judge
+haiku-4.5,HG-P03,P03,hinglish,en,playback,yes,True,u004,2,n,,y,"Restart, pause other devices, update, ISP check; Hinglish",llm-judge
+llama4-maverick,HG-P03,P03,hinglish,en,playback,yes,True,u162,2,n,,y,"Restart, pause activity, update, ISP; Hinglish",llm-judge
+nova2-lite,HG-P03,P03,hinglish,en,playback,yes,True,u125,2,n,,y,"Restart, HDCP, reduce network load, update; Hinglish",llm-judge
+haiku-4.5,HG-P03,P03,hinglish,hi,playback,yes,True,u246,1,n,,n,"Speed, motion setting, restart, reinstall; Devanagari reply to Hinglish",llm-judge
+llama4-maverick,HG-P03,P03,hinglish,hi,playback,yes,True,u065,1,n,,y,"Leans on live-stream excerpt (motion setting, speed); misses pause/restart-router steps",llm-judge
+nova2-lite,HG-P03,P03,hinglish,hi,playback,yes,True,u305,1,n,,n,"Motion setting, restart, reinstall, speed; Devanagari reply to Hinglish",llm-judge
+haiku-4.5,HG-P03,P03,hinglish,both,playback,yes,True,u394,2,n,,n,"Covers speed, restart, pause other devices; Devanagari reply to Hinglish",llm-judge
+llama4-maverick,HG-P03,P03,hinglish,both,playback,yes,True,u094,1,n,,y,"Motion setting, speed, router restart; thin; Hinglish with some Devanagari",llm-judge
+nova2-lite,HG-P03,P03,hinglish,both,playback,yes,True,u124,2,n,,n,"Covers speed, other devices, router restart, reinstall; Devanagari reply to Hinglish",llm-judge
+haiku-4.5,HG-D01,D01,hinglish,en,devices,yes,True,u361,2,n,,y,"Correct steps and limit, Hinglish",llm-judge
+llama4-maverick,HG-D01,D01,hinglish,en,devices,yes,True,u174,2,n,,y,"Correct steps and limit, Hinglish",llm-judge
+nova2-lite,HG-D01,D01,hinglish,en,devices,yes,True,u053,2,n,,y,"Correct steps and limit; upgrade option, Hinglish",llm-judge
+haiku-4.5,HG-D01,D01,hinglish,hi,devices,yes,True,u256,2,n,,n,Correct steps and limit but Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-D01,D01,hinglish,hi,devices,yes,True,u223,2,n,,y,"Correct steps and limit, Hinglish",llm-judge
+nova2-lite,HG-D01,D01,hinglish,hi,devices,yes,True,u064,2,n,,n,Correct steps and limit but Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-D01,D01,hinglish,both,devices,yes,True,u361,2,n,,y,"Correct steps and limit, Hinglish",llm-judge
+llama4-maverick,HG-D01,D01,hinglish,both,devices,yes,True,u114,2,n,,y,"Correct steps and limit, Hinglish",llm-judge
+nova2-lite,HG-D01,D01,hinglish,both,devices,yes,True,u040,2,n,,y,"Correct steps and limit, Hinglish",llm-judge
+haiku-4.5,HG-DL02,DL02,hinglish,en,downloads,yes,True,u008,1,n,,n,Says 30 days only; the 48-hour part fell outside the retrieved chunk; Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-DL02,DL02,hinglish,en,downloads,yes,True,u080,1,y,,y,"Says 30 days only and adds that downloads are then deleted, which the excerpts don't say",llm-judge
+nova2-lite,HG-DL02,DL02,hinglish,en,downloads,yes,True,u134,1,n,,n,Says 30 days only; 48-hour rule missing; Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-DL02,DL02,hinglish,hi,downloads,yes,True,u164,0,n,,n,Search missed; says it doesn't have the expiry period; Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-DL02,DL02,hinglish,hi,downloads,yes,True,u142,0,n,,y,Search missed the viewing-period text; says downloads are temporary and the period isn't stated,llm-judge
+nova2-lite,HG-DL02,DL02,hinglish,hi,downloads,yes,True,u379,0,y,,n,Search missed; says the period is 'not fixed' and that rented/bought titles are kept permanently; Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-DL02,DL02,hinglish,both,downloads,yes,True,u008,1,n,,n,Says 30 days only; the 48-hour part fell outside the retrieved chunk; Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-DL02,DL02,hinglish,both,downloads,yes,True,u082,1,y,,y,Says 30 days only and adds that downloads are then deleted,llm-judge
+nova2-lite,HG-DL02,DL02,hinglish,both,downloads,yes,True,u138,1,n,,n,Says 30 days only; 48-hour rule missing; Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-C01,C01,hinglish,en,channels,yes,True,u343,2,n,,y,"Cancel steps, Apple rule, Hinglish",llm-judge
+llama4-maverick,HG-C01,C01,hinglish,en,channels,yes,True,u095,2,n,,y,"Cancel steps, reversal, Apple rule, Hinglish",llm-judge
+nova2-lite,HG-C01,C01,hinglish,en,channels,yes,True,u318,2,n,,y,"Full cancel steps and notes, Hinglish",llm-judge
+haiku-4.5,HG-C01,C01,hinglish,hi,channels,yes,True,u226,2,n,,n,Correct steps but Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-C01,C01,hinglish,hi,channels,yes,True,u406,2,n,,y,Cancel steps and end date; Hinglish with a few Devanagari words,llm-judge
+nova2-lite,HG-C01,C01,hinglish,hi,channels,yes,True,u048,2,n,,n,Correct steps but Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-C01,C01,hinglish,both,channels,yes,True,u062,2,n,,n,Correct steps but Devanagari reply to Hinglish,llm-judge
+llama4-maverick,HG-C01,C01,hinglish,both,channels,yes,True,u052,2,n,,y,"Cancel steps, Apple rule, Hinglish",llm-judge
+nova2-lite,HG-C01,C01,hinglish,both,channels,yes,True,u259,2,n,,n,Correct steps but Devanagari reply to Hinglish,llm-judge
+haiku-4.5,HG-A01,A01,hinglish,en,account_access,partial,True,u177,1,n,n,y,"Generic supported troubleshooting, does not say the code problem isn't covered",llm-judge
+llama4-maverick,HG-A01,A01,hinglish,en,account_access,partial,True,u384,1,n,n,y,"Supported sign-in steps, no gap flag",llm-judge
+nova2-lite,HG-A01,A01,hinglish,en,account_access,partial,True,u044,1,n,n,n,"Supported steps, no gap flag, presents deregistering as a sign-in fix; Hinglish question answered in Devanagari",llm-judge
+haiku-4.5,HG-A01,A01,hinglish,hi,account_access,partial,True,u285,2,n,y,y,Supported steps; says it lacks information on the specific code,llm-judge
+llama4-maverick,HG-A01,A01,hinglish,hi,account_access,partial,True,u308,1,n,n,y,"Supported steps, no gap flag",llm-judge
+nova2-lite,HG-A01,A01,hinglish,hi,account_access,partial,True,u227,1,n,n,n,"Supported steps, no gap flag; Hinglish question answered in Devanagari",llm-judge
+haiku-4.5,HG-A01,A01,hinglish,both,account_access,partial,True,u295,2,n,y,y,Supported steps; says it does not know the fix for the code,llm-judge
+llama4-maverick,HG-A01,A01,hinglish,both,account_access,partial,True,u248,2,n,y,y,Supported steps; says it has no specific information on the code not being accepted,llm-judge
+nova2-lite,HG-A01,A01,hinglish,both,account_access,partial,True,u143,1,n,n,n,"Supported steps, no gap flag; Hinglish question answered in Devanagari",llm-judge
+haiku-4.5,HG-U02,U02,hinglish,en,billing,no,,u378,1,y,y,y,Declines and refers to support; adds unsupported Help > Contact Us path and advice to ask the bank about refund time,llm-judge
+llama4-maverick,HG-U02,U02,hinglish,en,billing,no,,u214,2,n,y,y,"Clear decline, refers to support",llm-judge
+nova2-lite,HG-U02,U02,hinglish,en,billing,no,,u083,2,n,y,n,"Clear decline and referral, mentions ""excerpts""; Hinglish question answered in Devanagari",llm-judge
+haiku-4.5,HG-U02,U02,hinglish,hi,billing,no,,u144,1,y,y,n,"Declines and refers to support, but says Your Orders shows refund status (unsupported); answered in Devanagari",llm-judge
+llama4-maverick,HG-U02,U02,hinglish,hi,billing,no,,u063,1,n,y,n,"Declines, but adds off-topic payment-update steps from the excerpt; answered in Devanagari",llm-judge
+nova2-lite,HG-U02,U02,hinglish,hi,billing,no,,u086,2,n,y,n,Clear decline and referral; Hinglish question answered in Devanagari,llm-judge
+haiku-4.5,HG-U02,U02,hinglish,both,billing,no,,u325,2,n,y,n,Clear decline and referral; Hinglish question answered in Devanagari,llm-judge
+llama4-maverick,HG-U02,U02,hinglish,both,billing,no,,u002,2,n,y,n,Clear decline and referral; Hinglish question answered in English,llm-judge
+nova2-lite,HG-U02,U02,hinglish,both,billing,no,,u292,2,n,y,n,Clear decline and referral; Hinglish question answered in Devanagari,llm-judge
+haiku-4.5,HG-U07,U07,hinglish,en,playback,no,,u129,2,n,y,y,"Clear decline, routes to support; generic pointer to where support is found",llm-judge
+llama4-maverick,HG-U07,U07,hinglish,en,playback,no,,u385,1,n,y,y,Leads with off-topic app and connection troubleshooting before declining,llm-judge
+nova2-lite,HG-U07,U07,hinglish,en,playback,no,,u373,2,n,y,y,"Clear decline and referral; mentions ""help-center excerpts"" (rule 6 breach, not scored)",llm-judge
+haiku-4.5,HG-U07,U07,hinglish,hi,playback,no,,u307,2,n,y,n,Clear decline and referral; Hinglish question answered in Devanagari,llm-judge
+llama4-maverick,HG-U07,U07,hinglish,hi,playback,no,,u239,2,n,y,y,"Clear decline, refers to support; one grammar slip",llm-judge
+nova2-lite,HG-U07,U07,hinglish,hi,playback,no,,u146,2,n,y,n,Clear decline and referral; Hinglish question answered in Devanagari,llm-judge
+haiku-4.5,HG-U07,U07,hinglish,both,playback,no,,u193,2,n,y,n,Clear decline and referral; Hinglish question answered in Devanagari,llm-judge
+llama4-maverick,HG-U07,U07,hinglish,both,playback,no,,u245,1,n,y,n,Weak decline padded with off-topic device checks; Hinglish question answered in Devanagari,llm-judge
+nova2-lite,HG-U07,U07,hinglish,both,playback,no,,u342,2,n,y,n,"Clear decline and referral, mentions ""excerpts""; Hinglish question answered in Devanagari",llm-judge
