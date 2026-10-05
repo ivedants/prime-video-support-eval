@@ -1,6 +1,6 @@
 # Prime Video support assistant: a small Hindi and English evaluation
 
-I built a customer-support assistant that answers only from Prime Video's public Help Center articles (https://www.primevideo.com/help), ran it on three models through Amazon Bedrock, and scored 450 answers in English, Hindi and Hinglish the way a customer-experience team would.
+I built a customer-support assistant that answers only from Prime Video's public Help Center articles (https://www.primevideo.com/help), ran it on three models through Amazon Bedrock, and scored 450 answers in English, Hindi and Hinglish the way a Customer Experience team would.
 
 **What I found**
 
