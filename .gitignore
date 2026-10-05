@@ -1,0 +1,19 @@
+# Help-article text stays local; the repository links to the sources instead
+data/articles/
+data/articles_index.csv
+data/index/
+data/index_mock/
+raw/
+*.html
+
+# Model answers and review workbooks quote or closely paraphrase article text
+results/raw_answers.jsonl
+results/*_mock*
+review/
+
+# AWS / Python
+.env
+.aws/
+.venv/
+__pycache__/
+.DS_Store
