@@ -33,6 +33,33 @@ The test is small (70 questions, 35 articles), so a difference of a few answers 
 
 ## How it works
 
+## Decisions I made, and why
+
+- **A third of the questions can't be fully answered from the articles.** A support assistant does the most damage when it answers confidently without grounds, so the test includes questions it should decline and questions it can only half answer.
+- **Hindi questions were run against English articles, Hindi articles, and both.** A team launching a new language has to decide whether to search the translated help content or the original. I wanted a number for that, not an assumption.
+- **The judge never saw model names.** One of the three models comes from the same family as the judge, so the names were hidden until scoring was finished.
+- **I scored Hindi quality myself and reported the judge's failure.** When the LLM judge agreed with me only 56% of the time, I dropped it for that measure and kept the failed test in the write-up, because the next team will be tempted to do the same thing.
+- **No winner is named.** The models tie on correctness at this sample size. Picking one would have made a tidier story than the data supports.
+- **Amazon's content is not republished.** The repository links to the help articles and leaves out both the article text and the model answers that paraphrase it.
+
+## Where this applies
+
+The numbers describe 70 questions on one help center. The method is what carries over:
+
+- **Choosing a model for multilingual support.** Same passages, same prompt and a four-measure rubric separate models that look identical on accuracy alone.
+- **Launching support in a new language.** Whether to search translated articles or the originals can be tested cheaply, before any translation budget is spent.
+- **Cheap guardrails.** A script check on reply language, and declining when search confidence is low, would each have prevented a visible share of the bad answers here.
+- **Trusting an LLM judge.** Check it against native speakers in each new language first. Here it held up on the English answers I checked and did not hold up for Hindi fluency.
+
+## What I would do next
+
+1. **Use real customer questions, and more of them.** These 70 are mine. With access and privacy review, I would sample several hundred real contacts per language, since real customers ask messier questions than I wrote.
+2. **Measure whether the customer's problem was solved.** Rubric scores are a stand-in. The measures that matter are resolution, repeat contacts and satisfaction, tested with a small live pilot and a clear path to a human agent.
+3. **Fix Hindi search before anything else.** It was the main difference between the Hindi conditions. I would compare multilingual embedding models, add reranking, and score search at the passage level instead of the article level.
+4. **Give "partly answerable" its own fix and metric.** Every model failed here, and overall accuracy hides it.
+5. **Add raters.** One native speaker scored Hindi. Three raters per language, with their agreement reported, would make the language findings firm, and would show what register customers want: some answers I marked down were correct but too formal for everyday Hindi.
+6. **Extend to more languages and models.** Tamil, Telugu, Bengali and Marathi next, each with native raters, plus the larger models this run could not include.
+
 ```mermaid
 flowchart LR
     Q[Customer question<br/>English, Hindi or Hinglish] --> S[Local search<br/>top 3 passages]
